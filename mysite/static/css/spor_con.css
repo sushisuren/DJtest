@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import url('five.css');
+@import url('style.css');
+/*banner*/
+#banner{ width:100%; height:400px; position:relative; margin:0}
+#banner ul li.imgli{ width:100%; height:400px; position:absolute; display:none;}
+#banner ul li.imgli a{ display:block; width:100%; height:400px;}
+#banner  .lr_but .prev{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 -80px; position:absolute; left:0; top:50%; margin-top:-35px; cursor:pointer}
+#banner  .lr_but .next{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 0px; position:absolute;  right:0; top:50%; margin-top:-35px;cursor:pointer}
+#banner .op_pos{ position:absolute; width:753px; height:270px; top:100px; left:50%; margin-left:-375px; z-index:111}
+#banner .op_pos .op_pos_l{ width:267px; height:60px; position:absolute; bottom:0px; left:68px;}
+#banner .op_pos .op_pos_l a{ display:block;width:267px; height:60px; color:#fff; font-size:22px; font-weight:bold;
+text-align:center; line-height:60px; }
+#banner .op_pos .op_pos_r{ width:267px; height:60px; position:absolute; bottom:1px; right:68px;}
+#banner .op_pos .op_pos_r a{ display:block;width:267px; height:60px; color:#fff; font-size:22px; font-weight:bold; text-align:center; line-height:60px;}
+/*banner  end*/
+/*精彩瞬间*/
+.pho_splendid_title a{ width: 100px; height: 50px; background: url(../images/icon_huan.png) no-repeat;}
+
+
+/*精彩瞬间end*/
+/*风景摄影*/
+
+.shadow3{ height: 40px; width: 100%;left: 0;bottom: 0; line-height: 40px;}
+/*风景摄影end*/
+/*景点*/
+.scenery_li4{width: 590px;height: 420px;}
+.scenery_li5{width: 285px;height: 200px;}
+
+/*comm css*/
+.info_more_right{right: 0; top: 6px;}
+.colorf90{ color: #f90;}
+.colorf93{color: #f93;}
+.color09c{ color: #09c;}
+.colorf60{ color: #f60;}
+.width893{ width: 893px;}
+.ml3{ margin-left: 3px;}
+.mt3{ margin-top: 3px;}
+.line24{ line-height: 24px;}
+.borbotton_ccc{ border-bottom: 1px solid #ccc;}
+.borderccc{border: 1px solid #ccc;}
+
+/*城市*/
+.city_search{top: 42px; left: 0;z-index:10;width:398px; background:#fff;}
+.city_search .city_sea .search_city_hot a,.city_down_list dd a,.com_results dl a{ display:inline-block; margin-right:8px; line-height:22px}
+.city_down_list dt{ width:40px;}
+.city_down_list dd{ width:320px;}
+.city_search a:hover{ text-decoration:underline}
+/*城市*/
+
+
+
+
+.wz_icon_spot{ width:12px ; height:16px ; background: url(../images/icon-dw2.png) no-repeat center;}
+.wz_list_spot{ bottom: 0;}
+.h2_tit{display:inline-block; border-bottom: 2px solid transparent;}
+.h2_tit_act{ border-color: #f90;}
+.jt_spot_sel{width:9px; height: 5px; background: url(../images/spot_jt.png) no-repeat; right: 0; top: 5px;}
+.line_ccc{height: 1px; background: #ccc; width: 893px; position: relative;top: -3px;}
+
+.sport_box{ width: 893px; height: 295px;}
+.port_con_box{width: 590px;}
+.text_con_right{width: 263px; padding: 20px; height: 254px;}
+.tit_width_con{ width: 180px; }
+.tit_right_hot{border-bottom: 2px solid #09c;width: 80px; top: 2px; color: #09c;}
+.tit_height_con{ height: 170px;overflow: hidden;}
+.pd20{padding: 20px;}
+
+
+.p_right_dd{ width: 245px; height: 40px; line-height: 20px; overflow: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

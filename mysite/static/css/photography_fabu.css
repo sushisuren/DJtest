@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url('five.css');
+.bg_f8{background: #f8f8f8}
+.fa_biao{color:#99ccff;}
+.bg{background: #fff;}
+.photography_dt{width: 80px;}
+.photography_dd{width: 766px;height: 40px;background: #f9f9f9;}
+.photography_dd input{height: 16px;line-height: 16px;width: 750px;background: #f9f9f9}
+.photography_li span{width: 86px;height: 40px;background: #ccc; color: #666;line-height: 40px;}
+.photography_li span:hover{background: #cc3333;color: #fff;}
+.photography_li span.chan{background: #cc3333;color: #fff;}
+.cover,.cover1{background: #cc3333;width: 130px;height: 40px;line-height: 40px;}
+.tailor{width: 300px;height:180px;}
+.tailor_dd{margin-left: 90px;}
+.cover1{margin-top: 130px;}
+.tailor_pic{width: 100px;height: 100px;}
+.pic_textarea{width: 624px;height: 100px;}
+.pic_ji{height: 40px;background: #cc3333;line-height: 40px;width: 750px;}
+.tailor_pic i{width: 44px;height: 44px;background: url("../images/image1.png") no-repeat -12px -102px;margin: 25px auto 0 auto; }
+
+
+
+
+
+
+
+
+
+
+
+

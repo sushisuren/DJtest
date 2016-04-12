@@ -1,0 +1,80 @@
+@charset "utf-8";
+.detail{width:100%; background:#f9f9f9;}
+/*top*/
+.company_top{ background:#fff;}
+.top_left{ width:896px;}
+.top_right{ width:252px; border:1px dashed #ccc;}
+.tp_img{ width:533px;}
+.tp_h1{ border-bottom:1px solid #333;}
+.red{ color:#d30101;}
+.tp_p2{ margin-top:63px;}
+.bming{ width:140px; height:40px; line-height:40px; background:#ff8a00;}
+.gzhu{ width:138px; height:38px; line-height:38px; border:1px solid #ccc;}
+.gzhu_i{ background:url('../images/icon_1.png') no-repeat -23px -411px; width:21px; height:21px; margin-top:11px;}
+.gzhu_qx{ background:url('../images/icon_1.png') no-repeat -23px -440px; width:21px; height:21px; margin-top:11px;}
+.right_m{ width:212px; margin:0 auto;}
+.pink{ color:#f74448;}
+.m_img{ top:0px; right:0px;}
+.fonS{ font-family:'SimSun';}
+.line{ border-bottom:1px solid #ccc;}
+.span_i1{background:url('../images/icon_1.png') no-repeat -68px -414px; width:15px; height:15px;}
+/*bottom left*/
+.bott_left{ width:895px;}
+.bott_left_tp,.bott_left_tm{ width:895px; background:#fff;}
+.bott_lm{width:815px; margin:0 auto;}
+.color7a{ color:#7a7a7a;}
+.lin24{ line-height:24px;}
+.apply_span1{ width:80px; height:30px; line-height:30px;}
+.app_inp{ height:30px; line-height:30px; border:1px solid #ccc; width:300px;}
+.apply_span3{ line-height:30px; color:#ff0000;}
+.lin30{ line-height:30px;}
+.app_inp1{ height:30px; line-height:30px; border:1px solid #ccc; width:200px;}
+.app_inp2{ height:30px; line-height:30px; border:1px solid #ccc; width:600px;}
+.li_text{ width:600px; resize:none; height:100px;}
+.apply{ width:111px; height:36px; line-height:36px; background:#ff8a00; border-radius:5px; margin-left:100px;}
+.text_mess{ width:717px; height:80px; border:1px solid #ccc; resize:none;}
+.mess_a{ width:82px; height:82px; line-height:82px; background:#f9f9f9; }
+.mess_a:hover{ background:#ff8a00; color:#fff !important;}
+.mess_tp{ width:815px; height:50px; background:#f9f9f9;}
+.zhug{ width:52px; height:16px; line-height:16px; color:#ff8a00; border:1px solid #ff8a00; border-radius:2px;}
+.mess_p{ top:18px; right:20px;}
+.mess_p a:hover{ color:#ff8a00 !important;}
+.huifu_p{ width:760px; margin-left:50px;}
+.num_cen{ margin-left:310px;}
+.num_cen a{float:left;}
+.num_cen p{float:left;padding:0 10px;line-height:36px; font-size:30px;}
+.num_cen p span{color:#ff8a00;padding:0 5px; font-size:30px;}
+.seven{padding:0 5px;color:#333 !important;}
+/*right begin*/
+.bott_right{ width:285px;}
+.right_tp{ width:285px; background:#fff;}
+.right_rm{ width:245px; margin:0 auto;}
+.aa{-webkit-text-stroke:1px #f00;-moz-text-stroke:1px #f00;-o-text-stroke:1px #f00;-ms-text-stroke:1px #f00;text-stroke:1px #f00; font-size:50px; color:green;}
+.colorf8{ color:#ff8a00;}
+.right_PP{ border-bottom:1px solid #ccc;}
+.right_li_a{ width:70px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.right_li{ width:70px;}
+.right_span{ background:url('../images/icon_1.png') no-repeat -719px -73px; width:42px; height:24px; margin:0 auto; cursor:pointer;}
+.right_li:hover .right_li_a{color:#FF8A00 ;}
+
+.hot_men{ height:410px; width:285px}
+.hot_top{ width:285px; background:#fff; top:0; left:0; display:block;}
+.hello{ width:245px !important; line-height:24px; text-align:center !important; color:#7a7a7a; display:block;}
+.hello p{ width:245px; text-align:center;}
+.name{ color:#7a7a7a; top: 325px; left:60px;}
+.ppp{ color:#d10000; top:340px; left:60px;}
+.span{ color:#7a7a7a; font-family:'SimSun';}
+.seven{ font-weight:bold; font-style:italic;}
+.img_i{ display:block; width:20px; height:24px; background-image:url('../images/bj.png'); top:370px; right:10px;}
+.hot_li { width:80px;  bottom:-20px;  left:47%; margin-left:-40px;}
+.hot_li  li{ float:left; width:10px;  background:#d8d8d8; margin-left:10px; cursor:pointer; height:10px}
+.hot_li li.currentt{ background:#1badb6}
+/*问答*/
+.pl_a{ width:755px; margin-left: 52px;overflow: hidden;}
+.text1{border:1px solid #ccc !important;width:755px; background:#fff; margin:0 auto !important; display:block; color:#666 !important; line-height:30px;  font-size:12px;  resize: none;}
+.fb{ width:80px; height:30px; line-height:30px; background:#F39600; border-radius:5px;}
+.img_a_a{ width:40px; height:20px; line-height:20px;overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.img_a{ width:50px;}
+.img_pl{ width:708px;}
+.pingl{ width:760px;}
+.more,.more_a{color: #0016b0;text-align: center;margin-top: 10px; cursor: pointer}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import url('style.css');
+/*banner*/
+#bannerbox{ width:100%; height:360px; position:relative; }
+#bannerbox .imglist li{ width:100%; height:360px; position:absolute; display:none}
+#bannerbox .smallimg{width:850px; height:30px; position:absolute; bottom:62px; left:50%; margin-left:-298px;}
+#bannerbox .smallimg li{ width:168px; height:30px; float:left; cursor:pointer; background:rgba(255,255,255,0.8) !important; background:rgb(255,255,255); filter:alpha(opacity:80); -khtml-opacity:0.8; line-height:30px; text-align:center; font-size:12px; margin-right:2px;}
+#bannerbox .smallimg li.libg{background:rgba(0,0,0,0.5) !important; background:rgb(0,0,0); filter:alpha(opacity:50); -khtml-opacity:0.5; line-height:30px; color:#fff; }
+#bannerbox  .banhot{ width:848px; height:52px;background:url(../images/erjibg.png) repeat;position:absolute; bottom:8px; left:50%; margin-left:-298px;}
+#bannerbox  .banhot p a{ display:block; float:left; padding:0 20px; text-align:center ; line-height:52px; color:#000; font-size:14px;}
+#bannerbox  .banhot p a:hover{ text-decoration:underline}
+#bannerbox  .banhot .hotsea{ width:420px; height:28px; border:none; margin-top:10px; text-indent:20px; line-height:30px; float:left;  border:1px solid #008FD7;}
+#bannerbox  .banhot .hotmit{ width:80px; height:30px; margin-top:10px; float:left; border:none; background:#008FD7;color:#fff; font-size:12px; line-height:30px; text-align:center; text-decoration:none;}
+
+
+
+/* shop css className  reset */
+
+.width920{ width:920px;}
+
+.tour_height{ height:32px;}
+.line32{ line-height: 32px;}
+.tour_tit{ width:200px; }
+.fontnormal{ font-weight: normal;}
+.pd10{padding: 10px;}
+.width210{ width: 210px;}
+.bordertran{border:1px solid transparent}
+.borderccc{ border:1px solid #ccc}
+.width710{ width: 708px}
+.colorff7{color:#FF743F}
+.height228{ height:242px;}
+.tour_tab li{ padding:0 20px;  }
+.line18{ line-height: 18px;}
+
+
+.borderbottom2{ border-bottom: 2px solid #64ab07}
+.borderbottomfb4{ border-bottom: 2px solid #985FB4}
+.borderbottom42c{ border-bottom: 2px solid #42C7F2}
+.borderbottomfa5{ border-bottom: 2px solid #FA5F6F}
+.borderbottom08a{ border-bottom: 2px solid #08AFB1}
+.borderbottomfac0{ border-bottom: 2px solid #517AC0}
+.borderbottom45b{ border-bottom: 2px solid #45BD9E}
+.borderbottombf7{ border-bottom: 2px solid #BF7342}
+.borderbottom3aa{ border-bottom: 2px solid #3AA860}
+.borderbottom2a7{ border-bottom: 2px solid #2A79FB}
+.tour_tab_active_one{ background: #64ab07; color:#fff !important;}
+.tour_tab_active_two{ background: #985FB4; color:#fff !important;}
+.tour_tab_active_three{ background: #42C7F2; color:#fff !important;}
+.tour_tab_active_four{ background: #FA5F6F; color:#fff !important;}
+.tour_tab_active_five{ background: #08AFB1; color:#fff !important;}
+.tour_tab_active_six{ background: #517AC0; color:#fff !important;}
+.tour_tab_active_sevn{ background: #45BD9E; color:#fff !important;}
+.tour_tab_active_eig{ background: #BF7342; color:#fff !important;}
+.tour_tab_active_nei{ background: #3AA860; color:#fff !important;}
+.tour_tab_active_ten{ background: #2A79FB; color:#fff !important;}
+
+
+
+.txt_body_list{height: 36px; overflow: hidden; margin-top: 7px; line-height: 1.5}
+.body_money_list{    color: #bbb; height: 18px; margin-top: 7px; line-height: 1; font-family: "宋体";overflow: hidden;}
+.body_right{
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+
+}
+.height491{  height:491px;}
+.body_right dl:hover{border:1px solid #ffc13b; background: #FFFBEE;}
+.body_right dl:hover dd a{ color:#FF743F !important;}
+
+
+/*右边*/
+.colorf7{ color: #f7f7f7;}
+.borderbotomdot{ border-bottom: 1px dashed #ccc}
+.charts_num{ height:32px; width: 100%;
+    background: #e5e5e5;}
+.charts_num li{ width:86px ;height:32px; line-height: 30px; border-top:2px solid #ccc}
+.charts_num li.on{ border-color:#64ab07}
+.box_chart{ width:100%;
+    height:450px;
+}
+.list_char{height: 80px; width: 100%}
+.over_tit{ width: 150px; height: 16px; line-height: 16px; overflow: hidden;}
+.char_num_ph{width: 14px; height: 14px;top: 10px;left: 0px ; text-align: center; line-height: 14px; color: #fff}
+.bgf4a{ background: #FA4A2A}
+.bg888{background: #888}
+.width150{ width: 150px; height: 32px; overflow: hidden; margin-top: 7px  ;}
+.mt7{
+    margin-top:7px;}

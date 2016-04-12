@@ -1,0 +1,180 @@
+
+@import url('laydate.css');
+@import url('laydate2.css');
+html,body{ background:#f8f8f8}
+
+
+/*banner*/
+#banner{ width:100%; height:400px; position:relative; margin:0}
+#banner ul li.imgli{ width:100%; height:400px; position:absolute; display:none;}
+#banner ul li.imgli a{ display:block; width:100%; height:400px;}
+#banner  .lr_but .prev{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 -80px; position:absolute; left:0; top:50%; margin-top:-35px; cursor:pointer}
+#banner  .lr_but .next{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 0px; position:absolute;  right:0; top:50%; margin-top:-35px;cursor:pointer}
+#banner .op_pos{ position:absolute; width:753px; height:270px; top:100px; left:50%; margin-left:-375px; z-index:111}
+#banner .op_pos .op_pos_l{ width:267px; height:60px; position:absolute; bottom:0px; left:68px;}
+#banner .op_pos .op_pos_l a{ display:block;width:267px; height:60px; color:#fff; font-size:22px; font-weight:bold;
+text-align:center; line-height:60px; }
+#banner .op_pos .op_pos_r{ width:267px; height:60px; position:absolute; bottom:1px; right:68px;}
+#banner .op_pos .op_pos_r a{ display:block;width:267px; height:60px; color:#fff; font-size:22px; font-weight:bold; text-align:center; line-height:60px;}
+/*banner  end*/
+.back_fff{ width: 100%; height: 100%; background: #f8f8f8;}
+/*租车选项*/
+.car_tab{ height: 250px; top: -50px;}
+.zc_xxk_list{ height: 50px;}
+.zc_car_wh{ width: 150px; height: 50px;  line-height: 50px; cursor: pointer;}
+.bgcolor-hov{ background: #fff;}
+/* 左*/
+.box_zc{ height: 200px; width: 100%; line-height: 40px;}
+.box_left_zc{ width: 40%; height: 170px; border-right: 1px dashed #ccc; margin-right: -1px; }
+.box_right_zc{ width: 60%; height: 170px;}
+.qc_width{ width:405px ; height:40px ; border: 1px solid #ccc;  margin-left: 45px;}
+.getcar_wat{ margin-top: 110px;}
+
+
+.icon_qc{ width: 16px; height: 16px; background: url(../images/icon_fangzi.png)  no-repeat ;  margin-top: 12px; }
+.icon_dw2{ width: 12px; height: 16px; background:url(../images/icon-dw2.png);  margin-top: 14px; }
+.span_qc{ display: block; margin-left: 10px;}
+.inp_qc{ background: none; margin-top: 12px;  border: none; outline: none; line-height: 14px; width: 300px; }
+
+
+/*city*/
+.posabs_city{ width: 405px; height: 250px; background: #fff; left: 45px; top:45px ; z-index: 10; overflow-y: scroll;}
+.posabs_city h2{ background: #ECECEC; height: 30px; line-height: 30px; padding-left: 10px; font-weight: normal;}
+.posabs_city span{ width: 63px; height: 30px; line-height: 30px; padding-left: 10px; padding-left: 10px; cursor: pointer;}
+
+/* 右*/
+.right_box_zc{width: 60%; height: 140px; }
+.qhc_car_time_inp{ width: 300px; height: 40px;border: 1px solid #ccc;}
+.icon_qc_time{width: 40px; height: 40px; background: url(../images/qc_time_icon.png) no-repeat; }
+.txt_qc{line-height: 38px;}
+.qc_inp_text{right: 0;border: none; background: none; line-height: 16px; height: 16px;}
+.qc_inp_text1{width: 230px;}
+.qc_inp_text2{ width: 160px; }
+.time_inp_how{ width: 200px; height: 40px; border: 1px solid #ccc;}
+.time_inp_how_icon{ width: 40px; height: 40px; background: url(../images/time_db.png) no-repeat; }
+.but_lina{width:545px; height: 42px; background: #00cbff;}
+.lin_a{ line-height: 42px;}
+
+/*接机 送机*/
+.left_songji{width:40%; height: 180px;   border-right: 1px dashed #ccc;}
+.left_songji li{ float: left; text-align: center;}
+.left_songji li a{ display: inline-block; padding: 0 20px; color:#ccc;}
+.left_songji li span{ color: #ccc;}
+.left_songji li a:hover{color: #0099cc;}
+.box_jj{ width: 400; height: 140px; }
+.jj_inp_wid{ width: 400px; height: 40px; border:1px solid #ccc}
+.jj_inp_width{ width: 398px; height: 38px;  text-indent: 48px; margin-right: 100px;}
+.icon_fly_time{width: 40px; height: 38px; background: url(../images/fly.png) no-repeat; }
+.chaxun_fly{ right: 10px; color: #00ccff; line-height: 40px;}
+
+
+/**/
+.box_right_place{ width: 50%; height: 180px; }
+.box_right_place_width{ width: 460px; height: 40px;  line-height: 40px;border: 1px solid #ccc;}
+.box_right_place_widthh{width: 460px; height: 40px;  line-height: 40px;border: 1px solid #ccc; background: #00cdff;}
+.place_width{ width: 458px; height: 38px;  text-indent: 48px;}
+ 
+/* 时间*/
+.data_zc{width: 545px; height: 200px; left: -344px; top: 42px; z-index: 10; background: #fff;}
+
+.data_zc td span{ cursor: pointer; width: 94px; display: inline-block; height: 40px; line-height: 40px; text-align: center;}
+.data_zc td span.spanhov{ background: #00cbff; border-radius: 3px;}
+
+
+
+
+
+
+/*广告*/
+.car_advert{ height:100px;}
+.car_advert ul li{ width: 285px; height: 100px; border: 1px dashed #ccc;}
+.adv_icon{background:url(../images/icon_car.png) ; width:44px; height:37px;}
+.adv_icon_a{ background-position:0 0;}
+.adv_icon_b{ background-position:0 -37px;}
+.adv_icon_c{ background-position:0 -81px;}
+.adv_icon_d{ background-position:0 -120px;  height:40px;}
+.adv_tis{ margin-left:100px; margin-top:20px; width:170px; overflow:hidden; line-height:18px}
+/**/
+.car_me_box{border-bottom:1px solid #e1e1e1}
+.car_myconty li{ line-height:40px;}
+.car_myconty li.myconty_hov{ border-bottom:2px solid #0066cc}
+.zc_height{ height: 500px;}
+.zc_main_selc{width:285px; height:374px;}
+
+.motorcycle_type{ background: #00ccff; width: 62px;height:374px;}
+
+
+.bg_box_mor{ background: #fff;}
+.motorcycle_type ul li{ height: 33px; line-height: 33px;}
+.motor_con_sel  { margin: 0  5px;width: 210px;  height: 370px; overflow: hidden; }
+.motor_con_sel  li span{height: 32px; line-height: 32px; text-align:  ; display: block; float: left;  font-size: 12px; overflow: hidden;  text-indent: 5px; }
+.motor_con_sel  li.mor_tit{ border-bottom: 1px solid #ccc;  height: 32px; color: #069; }
+.name_mor{ width: 80px; display: block; text-align: left;}
+.motor_con_sel  li{ height: 32px; border-bottom: 1px dashed #ccc; cursor: pointer; text-align: left;}
+.colorf60{ color: #ff6600;}
+.motor_con_sel a span.bg_mor{   background: #cc0000; line-height: 10px;width: 10px; height: 10px; margin-top: 12px; text-indent: 2px;}
+
+
+
+
+
+
+
+
+.moto_color{ background: #fff;}
+.gg_wh{height:142px; width:285px;}
+.zc_list{width:915px; height:600px;}
+.zc_list li{ width:284px; height:267px; background:#fff}
+.now_show{ width:76px; height:24px; background:#ff6600; line-height:24px;}
+.now_zk{ background:#333}
+.zc_js{width:240px; height:76px; border-top:1px solid #ccc; margin-left:22px; overflow:hidden; line-height:30px}
+.mon-icon{ background:url(../images/icon_car.png) no-repeat; width:8px; height:10px; background-size:; background-position:-11px -763px; bottom:20px; right:80px}
+.money_199{ font-weight:bold; color:#ff9900; font-size:26px}
+.next_shadow{width: 285px; height: 100%; background:rgba(0,0,0,0.5) ;top: 0; left: 0}
+.height_jb{ height:114px}
+
+.png_jieb{ width:56px ; height:56px;}
+.png-1{background: url(../images/jieban1.png);}
+.png-2{background: url(../images/jieban2.png);}
+.png-3{background: url(../images/jieban3.png);}
+.png-4{background: url(../images/jieban4.png);}
+.img_next_shadow{left:108px; top: 18px;}
+.advert{ display:none}
+/*安全驾驶*/
+.surce{ width:285px; height:452px; background:#fff }
+.rank{ color:#d10000; line-height:20px;}
+.getrank{ width:86px; height:16px; background:#fe7059}
+.icon_adv_rank{width:16px; height:16px; background:url(../images/icon_car.png) no-repeat -10px -737px; display:block; float:left;}
+.rank_con{ line-height:20px; height:60px; overflow:hidden;}
+.rank_con a{color:#575656} 
+.infom{width:245px; height:133px; border-top:1px solid #d5d5d5; border-bottom:1px solid #d5d5d5;}
+.info_colo{color:#575656}
+.bigfont{font-weight:bold; color:#ff8a00; padding:0 5px}
+.mayi{background:url(../images/icon_car.png) no-repeat -9px -715px; width:18px; height:18px; }
+.mayi_col{ color:#848484}
+.manyi_100{ color:#ff5f63; padding:0 5px}
+/*租车动态*/
+.trends{  height:580px; margin-top:20px; border-top:1px solid #ccc; overflow:hidden}
+.trends li{ border-bottom:1px dashed #ccc; height:142px;}
+.trends_linh{ line-height:30px}
+.trends_time{ margin-top:84px}
+.text_trends{ width:580px; overflow:hidden}
+.go_text{ color:#ff9900; padding:0 3px}
+.money_zc{ width:10px; height:12px; background:url(../images/icon_car.png) no-repeat -10px -761px;}
+.zc_ahover{ line-height:28px}
+.a_zccolor{ color:#fff; background:#ff9900; width:62px; height:20px; line-height:20px}
+/*car_zcgl 租车攻略*/
+.car_zcgl{ width: 380px; height: 320px; background: #fff;}
+.zcgl_tit{ height: 30px; border-bottom: 1px solid #ccc; text-indent: 20px; font-weight: 400;}
+.zcgl_li li a{ width: 177px; height: 84px;line-height: 86px;   border-bottom:1px dashed #ccc ;}
+.zcgl_li li a span{ margin-left:10px}
+.zcgl_borrig{ border-right:1px dashed #ccc}
+.car-icon{ width:38px ; height:38px ; background:url(../images/icon_car.png) ;}
+.car_icon_a{ background-position: -1px -226px;}
+.car_icon_b{ background-position: -1px -274px; }
+.car_icon_c{ background-position: -1px -322px;}
+.car_icon_d{ background-position: -1px -371px;}
+.car_icon_e{ background-position: -1px -415px;}
+.car_icon_f{ background-position: -1px -459px;}
+.question{ color:#f93}
+.ques_li li{ line-height:36px; border-bottom:1px dashed #ccc; overflow:hidden; width:auto; height:36px;}

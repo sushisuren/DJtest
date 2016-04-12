@@ -1,0 +1,1804 @@
+@charset "utf-8";
+/*css reset*/
+@import url('header.css');
+@import url('laydate.css');
+@import url('laydate2.css');
+
+
+@media screen and (max-width: 1400px) {
+    #nav-right {
+        display:none;
+        }
+    }
+/*城市box 布局样式*/
+.bor_city{ border: 1px solid #CCC; width: 400px; display: none; position: absolute; background-color:#fff; z-index:1000;}
+.bor_city1{ display: none;top: 42px; left:0;}
+.bor_city2{ display: none; top: 48px; left:0;}
+.bor_city3{ display: none;top: 38px; left:0;}
+.bor_city5{ display: none;top: 38px; left:-3px;}
+.bor_city6{ display: none;top: 38px; left:-3px;}
+.city{ width: 400px; height: 200%;}
+.city .hot_tit{ width: 100%; padding: 10px 10px 2px 10px; font-size: 14px; color: #ccc; height:28px; line-height:28px;}
+.city .city_a{ margin: 5px;}
+.city .city_a a{ display: block;color: #333;  font-size: 12px; float: left; line-height: 18px; padding: 3px; cursor:pointer;}
+.city .city_a a:hover{ color: #64AB07;}
+.fix{ clear: both; width: 384px; height: 1px; background: #ccc; margin-left: 8px;}
+.city .city_ls{ float: left; width: 43px; height:50px; margin: 10px; padding-bottom: 55px; color: #999;}
+.city .city_r{ float: right; }
+.city .city_x{ width:320px; padding: 0;}
+/*城市样式end*/
+
+
+
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main {
+    width: 100%;
+}
+
+/*楼层*/
+#nav-right {
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -665px;
+    font-size: 14px;
+    /*display:none;*/
+}
+
+.nav-right-nav {
+    width: 1px;
+    border-left: 1px dashed #ddd;
+}
+
+.nav-right-nav ul {
+    margin: 0 0 0 -5px;
+}
+
+.nav-right-nav li {
+    position: relative;
+    float: left;
+    height: 9px;
+    margin: 0 0 40px 0;
+    cursor: pointer
+}
+
+#nav-right ul .ziti {
+    color: #1badb6;
+}
+
+.nav-right-nav li:hover {
+    color: #1badb6;
+}
+
+#nav-right ul li .lan {
+    background-position: -103px -148px;
+}
+
+.nav-right-nav li:hover i {
+    background-position: -103px -148px;
+}
+
+.nav-right-nav li.last {
+    margin-bottom: 0;
+}
+
+.nav-right-nav li i {
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: url(../images/image.png) no-repeat -103px -137px;
+}
+
+.nav-right-nav li h3 {
+    position: absolute;
+    left: 15px;
+    top: -8px;
+    width: 50px;
+    font-weight: normal
+}
+
+#nav-right .floot:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+/*楼层end*/
+
+
+ .but_frist {
+    width: 270px;
+    height: 60px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.but_frist a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    background: #ff9d00;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+
+/*banner*/
+.bannerbox,.bigimg,.bigimg li,.bigimg li a{
+              width:100%;
+              height:400px;
+          }
+.bigimg li{
+    display: none;
+}
+.bigimg li a{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+.smallimg{
+    right:20px;
+    top:20px;
+}
+.smallimg li{
+    width:110px;
+    height:62px;
+    margin-top: 5px;
+    border:2px solid transparent;
+    cursor: pointer;
+}
+
+.smallimg li.active_bann{
+    border:2px solid #f39600;
+}
+.search-container {
+    width: 632px;
+    height: 110px;
+    background: url(../images/bg.png);
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    margin-left: -316px;
+}
+
+.search-group {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.searchtab {
+    line-height: 26px;
+    height: 26px;
+}
+
+.searchtab ul {
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    height: 26px;
+}
+
+.searchtab li {
+    float: left;
+    display: inline;
+    margin-right: 30px;
+    cursor: pointer;
+    line-height: 26px;
+}
+
+.searchtab i {
+    width: 16px;
+    height: 16px;
+    line-height: 26px;
+    float: left;
+    margin: 5px 5px 0 0;
+    background: url(../images/image.png) no-repeat -46px -1px;
+}
+
+.searchtab .list {
+    background-position: -46px -31px;
+}
+
+.all_search {
+    height: 46px;
+    width: 602px;
+    margin-top: 7px;
+}
+
+.search_scr .scr, .search_scr form {
+    height: 46px;
+    width: 602px;
+}
+
+.hotel_bat {
+    width: 60px;
+    height: 46px;
+}
+
+.hotel_search {
+    width: 535px;
+    line-height: 46px;
+    height: 46px;
+    float: left;
+}
+
+.allsearch {
+    width: 535px;
+    height: 46px;
+    float: left;
+    line-height: 46px;
+    background-color: #fff;
+    position: relative;
+}
+
+.allsearch input {
+    width: 530px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #a9a9a9;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    text-indent: 15px;
+}
+
+.all_bat {
+    float: right;
+}
+
+.all_bat input {
+    width: 60px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f39600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hotel {
+    width: 602px;
+    height: 46px;
+    position: relative;
+}
+
+.hotel_search_left {
+    width: 535px;
+    height: 46px;
+    position: relative;
+}
+
+.hotel_search_left input, .hotel_search_left i {
+    display: block;
+    float: left;
+}
+
+.hotel_search_left input {
+    width: 180px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    margin: 12px 10px 12px 0;
+    color: #a9a9a9;
+    padding-left: 20px;
+}
+
+.hotel_search_left i {
+    width: 7px;
+    height: 4px;
+    background: url(../images/image.png) no-repeat -124px -142px;
+    margin: 21px 0 21px 5px;
+}
+
+.hotel_search_left {
+    float: left;
+    width: 230px;
+    height: 46px;
+    background-color: #FFF;
+}
+
+.hotel_search_mid, .hotel_search_right {
+    line-height: 46px;
+    height: 46px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 5px;
+}
+
+.hotel_search_mid {
+    width: 150px;
+}
+
+.hotel_search_right {
+    width: 145px;
+
+}
+
+.air_menu {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.air_route {
+    width: 86px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #FFF;
+    padding-left: 20px;
+}
+
+.air_route input {
+    width: 65px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #a9a9a9;
+    margin: 12px 0 12px 0;
+}
+
+.air_route input, .air_route i {
+    display: block;
+    float: left;
+}
+
+.air_route i {
+    width: 7px;
+    height: 4px;
+    background: url(../images/image.png) no-repeat -124px -142px;
+    margin: 21px 0 21px 5px;
+}
+
+.air_route1 {
+    border: 1px solid #a9a9a9;
+    display: none;
+}
+
+.air_route1 a {
+    border-bottom: 1px solid #e1e1e1;
+    color: #a9a9a9;
+    display: block;
+    line-height: 20px;
+    height: 20px;
+    width: 104px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.air_currue {
+    background-color: #ebebeb;
+    text-decoration: none;
+    color: #fff;
+}
+
+.air_curruei {
+    background-position: 0 -6px;
+}
+
+.hotel_search_left2, .hotel_search_right2, .hotel_search_mid2 {
+    float: left;
+}
+
+.hotel_search_left2, .hotel_search_mid2 {
+    width: 141px;
+    height: 46px;
+    background-color: #fff;
+}
+
+.hotel_search_mid2 {
+    margin-left: 5px;
+}
+
+.hotel_search_left2 input, .hotel_search_mid2 input {
+    width: 110px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #a9a9a9;
+    padding-left: 20px;
+}
+
+.hotel_search_right2 {
+    width: 132px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+
+.hotel_search_right2 img {
+    display: inline-block;
+    margin: 15px 3px 15px 0;
+}
+
+.hotel_search_right2 input {
+    width: 88px;
+    height: 22px;
+    display: inline-block;
+    float: left;
+    line-height: 22px;
+    font-size: 14px;
+    margin-top: 12px;
+    color: #a9a9a9;
+    padding-left: 20px;
+}
+
+.hotel .hotel_bat {
+    float: right;
+}
+
+.hotel .hotel_bat input {
+    width: 60px;
+    height: 46px;
+    /*line-height:46px;*/
+    text-align: center;
+    font-size: 18px;
+    background-color: #f39600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hotel_search_mid input, .hotel_search_right input {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 10px;
+    margin-top: 12px;
+    float: left;
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.hotel_search_mid input {
+    width: 105px;
+}
+
+.hotel_search_right input {
+    width: 100px;
+}
+
+.hotel_search_mid img {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: right;
+}
+
+.hotel_search_right img {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: right;
+}
+
+/*私人游*/
+.Private {
+    width: 1200px;
+    height: 515px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Private_leftside {
+    width: 285px;
+    height: 430px;
+}
+
+.Private_rightside {
+    width: 895px;
+    height: 430px;
+}
+
+/*私人游左边*/
+.Private_title span, .shop_title span, .passenger_title span, .notes_titleleft span {
+    font-size: 22px;
+    display: block;
+    color: #333;
+    line-height: 26px;
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.indigene_list, .Private_list, .shop_list, .passenger_list {
+    width: 285px;
+    height: 394px;
+    margin-top: 6px;
+    background-color: #f8f8f8;
+}
+
+.shop_list {
+    border-top: solid #ffae2e 3px;
+}
+
+.Private_list {
+    border-top: solid #64ab07 3px;
+}
+
+.indigene_list {
+    border-top: solid #ffae2e 3px;
+}
+.passenger_list {
+    border-top: solid #0ec5cc 3px;
+}
+
+.Private_list dl, .indigene_list dl,  .shop_list dl, .passenger_list dl {
+    margin: 10px 0 0 10px;
+}
+
+.Private_list dl dt, .indigene_list dl dt,.shop_list dt, .passenger_list dt {
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+
+.Private_list dl dt {
+    border-left: solid 3px #64ab07;
+}
+
+.indigene_list dl dt {
+    border-left: solid 3px #ffae2e;
+}
+.indigene_list1 dl dt {
+    border-left: solid 3px #b477db;
+}
+.indigene_list1{border-top: solid #b477db 3px;}
+.shop_list dt {
+    border-left: solid 3px #ffae2e;
+}
+
+.passenger_list dt {
+    border-left: solid 3px #0ec5cc;
+}
+
+.Private_list dt .pri_dt, .indigene_list dt .pri_dt,  .shop_list dt .pri_dt, .passenger_list dt .pri_dt {
+    line-height: 18px;
+    padding-left: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+.Private_list dd, .indigene_list dd, .shop_list dd, .passenger_list dd {
+    margin-left: 9px;
+    font-size: 12px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.Private_list dd span, .indigene_list dd span,  .shop_list span {
+    display: block;
+    float: left;
+    color: #333;
+}
+
+.Private_list a, .indigene_list a, .shop_list a {
+    line-height: 24px;
+    display: block;
+    color: #666;
+    display: inline;
+    padding: 0 8px 0 8px;
+}
+.indigene_list a:hover{color: #ffae2e}
+.passenger_list a {
+    line-height: 24px;
+    color: #666;
+    display: inline;
+    padding-right: 7px;
+}
+
+.Private_list a:hover {
+    color: #64ab07;
+    text-decoration: underline;
+}
+
+
+.color_hu dl dd a:hover {
+    color: #b477db;
+    text-decoration: underline;
+}
+
+.shop_list a:hover {
+    color: #ffae2e;
+    text-decoration: underline;
+}
+
+.passenger_list a:hover {
+    color: #0ec5cc;
+    text-decoration: underline;
+}
+
+/*私人游左边 end*/
+/*私人游右边*/
+.Private_nav {
+    border-bottom: 3px solid #64ab07;
+    height: 32px;
+}
+
+.Private_nav ul, .indigene_nav ul, .accompanying_nav ul, .shop_nav ul, .passenger_nav ul {
+    float: left;
+    overflow: hidden;
+    width: 750px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 32px;
+}
+
+.Private_nav li, .indigene_nav li, .accompanying_nav li, .shop_nav li, .passenger_nav li, .notes_titlemid li {
+    display: block;
+    font-size: 14px;
+    float: left;
+    line-height: 32px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Private_nav li {
+    color: #64ab07;
+}
+
+.indigene_nav li {
+    color: #ffae2e;
+}
+
+.accompanying_nav li {
+    color: #b477db;
+}
+
+.passenger_nav li {
+    color: #0ec5cc;
+}
+
+.notes_titlemid li {
+    color: #1063ea;
+}
+
+.Private_nav span {
+    display: block;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.Private_nav i, .indigene_nav i, .accompanying_nav i, .passenger_nav i, .shop_nav i, .notes_titlemid i {
+    display: block;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.Private_nav i {
+    background: url(../images/image.png) no-repeat -90px -236px;
+}
+
+.indigene_nav i {
+    background: url(../images/image.png) no-repeat -90px -236px;
+}
+
+.accompanying_nav i {
+    background: url(../images/image.png) no-repeat -90px -238px;
+}
+
+.passenger_nav i {
+    background: url(../images/image.png) no-repeat -90px -270px;
+}
+
+.shop_nav i {
+    background: url(../images/image.png) no-repeat -90px -255px;
+}
+
+.notes_titlemid i {
+    background: url(../images/image.png) no-repeat -90px -270px;
+}
+
+.Private_nav .dynamic {
+    background-position: -90px -230px;
+}
+
+.Private_nav .dynamic2 {
+    font-weight: bold;
+}
+
+.Private_nav .more {
+    float: right;
+}
+
+.Private_nav .more span {
+    font-size: 14px;
+    color: #64ab07;
+    border: 1px solid #ddd;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 8px 0 8px;
+}
+
+/*图片*/
+.private_dd{width: 100%;height: 42px;bottom: 0;left: 0;line-height: 42px;}
+.Private_pic {
+    width: 915px;
+    height: 394px;
+}
+
+/*搜索框*/
+#box {
+    width: 1200px;
+    height: 74px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 10px;
+}
+
+.search_gre {
+    width: 1080px;
+    height: 74px;
+    float: left;
+}
+
+.but {
+    width: 105px;
+    height: 74px;
+    background: #64AB07;
+    float: right;
+}
+
+.but a {
+    display: block;
+    line-height: 74px;
+    text-align: center;
+    color: #fff;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    height: 74px;
+}
+
+.inpcomm {
+    border: 3px solid #64AB07;
+    float: left;
+    border-top: none;
+    border-left: none;
+    position: relative;
+}
+
+.inp_txt {
+    line-height: 35px;
+    text-indent: 20px;
+    border: none;
+    letter-spacing: 1px;
+    color: #9a9a9a;
+}
+
+.inp {
+    width: 1074px;
+    height: 35px;
+    border: 3px solid #64AB07;
+}
+
+.inp1 {
+    width: 207px;
+    height: 32px;
+    border-left: 3px solid #64AB07
+}
+
+.inp2 {
+    width: 207px;
+    height: 32px;
+}
+
+.inp3 {
+    width: 390px;
+    height: 32px;
+}
+
+#box .inp3 i {
+    display: block;
+    background: url(../images/image.png) no-repeat -118px -2px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.inp4 {
+    width: 150px;
+    height: 32px;
+}
+
+.inp5 {
+    width: 108px;
+    height: 32px;
+}
+
+.want {
+    width: 1074px;
+    height: 35px;
+}
+
+.start {
+    width: 207px;
+    height: 32px;
+}
+
+.end {
+    width: 207px;
+    height: 32px;
+}
+
+.stime {
+    width: 390px;
+    height: 32px;
+}
+
+.way {
+    width: 150px;
+    height: 32px;
+}
+
+.num {
+    width: 108px;
+    height: 32px;
+}
+
+.inpcomm .bg_sel {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    width: 7px;
+    height: 4px;
+    display: block;
+    background: url(../images/image.png) no-repeat -47px -290px;
+    cursor: pointer;
+}
+
+/* 出游方式下拉框*/
+.go_way {
+    width: 148px;
+    height: 106px;
+    border: 2px solid #CCC;
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.go_way ul li {
+    text-align: center;
+}
+
+.go_way ul li a {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.go_way ul li a:hover {
+    background: #fafafa;
+}
+
+/*当地游右边*/
+.indigene_nav {
+    border-bottom: 3px solid #ffae2e;
+    height: 32px;
+}
+
+.indigene_nav span {
+    display: block;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.indigene_nav .dynamic {
+    background-position: -90px -248px;
+}
+
+.indigene_nav .dynamic2 {
+    font-weight: bold;
+}
+.indigene_pic {
+    width: 895px;
+}
+
+/*当地人热门排行*/
+
+.indigene_content {
+    width: 1200px;
+    overflow: hidden;
+    clear: both;
+    padding-top: 15px;
+}
+
+.indigene_content dl {
+    width: 210px;
+    float: left;
+    height: 254px;
+    margin-right: 34px;
+    border: 1px solid #ccc;
+}
+
+.indigene_contentimg, .indigene_contentimg img {
+    width: 210px;
+    height: 130px;
+}
+
+.indigene_content a {
+    display: block;
+    font-size: 14px;
+    color: #444;
+}
+
+.indigene_content a:hover {
+    color: #ff8800;
+}
+
+.indigene_content dd, .indigene_content dt a {
+    width: 190px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.indigene_content dt {
+    margin-top: 16px;
+}
+
+.indigene_content dd {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #666666;
+}
+.indigene_hottitle {
+    line-height: 28px;
+    height: 28px;
+    width: 1200px;
+    padding-top: 20px;
+}
+
+.indigene_hottitle span, .indigene_hottitle a {
+    display: block;
+}
+
+.indigene_hottitle span {
+    float: left;
+    font-size: 14px;
+    color: #3d3d3d;
+    font-weight: bold;
+
+}
+
+.indigene_hottitle a {
+    float: right;
+    font-size: 12px;
+    color: #999;
+}
+
+/*伴游人*/
+
+/*左边*/
+
+/*右边*/
+.accompanying_nav {
+    border-bottom: 3px solid #b477db;
+    height: 32px;
+}
+
+.accompanying_nav span {
+    display: block;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.accompanying_nav .dynamic {
+    background-position: -90px -263px;
+}
+
+.accompanying_nav .dynamic2 {
+    font-weight: bold;
+}
+
+.more1 {
+    float: right;
+}
+
+.more1 span {
+    font-size: 14px;
+    color: #b477db;
+    border: 1px solid #ddd;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 8px 0 8px;
+}
+
+
+
+/*中间*/
+.panying_midgu {
+    clear: both;
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.panying_midguscr {
+    overflow: hidden;
+    width: 6000px;
+}
+
+.panying_mid {
+    width: 1200px;
+    margin: auto;
+    height: 460px;
+    overflow: hidden;
+    float: left;
+}
+
+
+.panying_mid2, .panying_mid2 img {
+    width: 211px;
+    height: 452px;
+}
+
+/*我的结伴*/
+.maypanying {
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.maypanying_list {
+    float: left;
+}
+
+.maypanying_search {
+    float: right;
+}
+
+.maypanying_content {
+    clear: both;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+/*左侧列表*/
+.maypanying_list ul {
+    height: 30px;
+
+}
+
+.maypanying_list li {
+    float: left;
+
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    color: #b477db;
+    border: 3px solid #fff;
+    cursor: pointer;
+    margin: 0;
+}
+
+.maypanying_list span {
+    padding: 0 36px 0 36px;
+}
+
+.maypanying_list .mycuure {
+    border: 3px solid #b477db;
+}
+
+.maypanying_list i {
+    width: 13px;
+    height: 8px;
+    background: url(../images/image.png) no-repeat -93px -157px;
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+    bottom: -11px;
+}
+
+.maypanying_list .mycuure2 {
+    background-position: -119px -25px;
+}
+
+/*左侧列表end*/
+/*目的地*/
+
+.maypanying_xialaout {
+    width: 400px;
+    background-color: #FFF;
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    padding: 0 15px 15px 15px;
+    display: none;
+    z-index: 112;
+}
+
+.maypanying_xialahot3 {
+    border-bottom: 1px #e5e5e5 solid;
+    padding-bottom: 15px;
+}
+
+.maypanying_xialahot3 a {
+    padding-right: 14px;
+    font-size: 12px;
+    color: #333;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.maypanying_xialahot3 a:hover {
+    color: #64ab07;
+}
+
+.maypanying_xialahot4 {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/*目的地end*/
+/*发表状态条*/
+
+.maypanying_searchr {
+    height: 36px;
+}
+
+.pany_searchr {
+    position: relative;
+    width: 400px;
+    height: 36px;
+}
+
+.pany_searchr, .pany_publish {
+    float: left;
+}
+
+.pany_searchr input {
+    font-size: 14px;
+    display: block;
+    float: left;
+    color: #a9a9a9;
+    line-height: 36px;
+    height: 36px;
+    padding-left: 20px;
+    background-color: #f8f8f8;
+}
+
+.pany_searchr3 {
+    width: 200px;
+    margin: 0 43px 0 0;
+    display: inline-block;
+    height: 36px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+
+.pany_searchr3 span {
+    float: left;
+    display: block;
+}
+
+.pany_searchr3 i {
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: right;
+    background: url(../images/image.png) no-repeat -118px -47px;
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.pany_searchr1 {
+    width: 100px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+/*搜索结束*/
+.pany_publish a {
+    display: block;
+    width: 250px;
+    background-color: #b477db;
+}
+
+.pany_publish img, .pany_publish span {
+    display: inline-block;
+    line-height: 36px;
+    margin-left: 20px;
+}
+
+.pany_publish span {
+    color: #fff;
+    font-size: 20px;
+}
+
+/*发表状态条end*/
+.mypanying_title, .mypanying_header, .maypanying_content dd, .maypanying_content dt {
+    margin-top: 10px;
+    width: 190px;
+    margin-left: 10px;
+}
+
+.mypanying_header {
+    overflow: hidden;
+}
+
+.mypanying_title a {
+    font-size: 14px;
+    color: #333;
+    width: 190px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mypanying_title a:hover {
+    text-decoration: underline;
+    color: #b477db;
+}
+
+.maypanying_content dl {
+    float: left;
+    z-index: -1;
+}
+
+.mypanying1 dl {
+    border: 1px solid #ccc;
+    margin-right: 34px;
+}
+
+.mypanying1 dl .text {
+    height: 48px;
+    overflow: hidden;
+}
+
+.mypanying1 dl .text p, .maypanying_content dt {
+    line-height: 16px;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+
+.mypanying_header a {
+    color: #d10000;
+    float: left;
+    display: block;
+}
+
+.mypanying_header img {
+    height: 30px;
+    width: 30px;
+}
+
+.mypanying_header .h {
+    float: left;
+    margin-left: 12px;
+}
+
+.mypanying_header .h span, .mypanying_header .h a {
+    display: block;
+    width: 140px;
+    clear: both;
+    font-size: 12px;
+    line-height: 14px;
+    color: #d10000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.maypanying_content dt {
+    margin-top: 10px;
+    height: 28px;
+    overflow: hidden;
+    line-height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.maypanying_content dt i {
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+    color: #7a7a7a;
+}
+
+/*56人精品游记攻略*/
+#note {
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.notes {
+    width: 1200px;
+}
+
+/*游记tiltle*/
+.notes_title {
+    border-bottom: 3px solid #1063ea;
+    overflow: hidden;
+}
+
+.notes_titleleft, .notes_titlemid {
+    float: left;
+}
+
+.notes_titleright {
+    float: right;
+}
+
+.notes_titlemid span {
+    padding: 0 23px 0 23px;
+}
+
+.notes_titlemid .dynamic {
+    background-position: -90px -278px;
+}
+
+.notes_titlemid .dynamic2 {
+    font-weight: bold;
+}
+
+.notes_titleright a {
+    display: block;
+    font-size: 14px;
+    color: #1063ea;
+    border: 1px solid #ddd;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 8px 0 8px;
+}
+
+/*游记内容*/
+
+
+/*56人精品游记攻略 end*/
+/*56人热门游戏*/
+.notes_hot {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.notes_hotleft {
+    float: left;
+}
+
+.notes_hotright {
+    float: right;
+}
+
+.notes_hotlefttitle span {
+    font-size: 22px;
+    color: #333;
+    display: block;
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 50px;
+}
+
+.notes_img {
+    overflow: hidden;
+}
+
+.notes_img .notes_img1 {
+    float: left;
+    margin-right: 13px;
+}
+
+.notes_img .notes_img1, .notes_img .notes_img1 img {
+    width: 380px;
+    height: 270px;
+}
+
+.notes_text {
+    overflow: hidden;
+}
+
+.notes_text1 {
+    overflow: hidden;
+    margin-top: 30px;
+    float: left;
+    margin-right: 26px;
+}
+
+.notes_text1 div {
+    float: left;
+}
+
+.notes_text1 a {
+    font-size: 12px;
+    color: #249bd3;
+}
+
+.notes_text1 .notes_text2 {
+    font-size: 14px;
+    color: #333;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.notes_text1 p {
+    font-size: 12px;
+    color: #666;
+    line-height: 28px;
+    width: 200px;
+    height: 84px;
+    overflow: hidden;
+}
+
+.notes_text1 img {
+    width: 163px;
+    height: 109px;
+}
+
+.notes_text3 {
+    margin-left: 10px;
+    width: 195px;
+}
+
+.notes_img1 {
+    position: relative;
+    overflow: hidden;
+}
+
+/*游记发表*/
+.notes_publish {
+    overflow: hidden;
+}
+
+.notes_publish a {
+    display: block;
+
+}
+
+.notes_publish_1 {
+    float: left;
+}
+
+.notes_publish_2 {
+    float: right;
+    font-size: 12px;
+    color: #545454;
+    height: 30px;
+    margin: 20px 8px 0 0;
+    line-height: 30px;
+}
+
+.notes_publish_2:hover {
+    color: #1063ea;
+}
+
+.notes_publish span, .notes_publish img {
+    display: inline-block;
+}
+
+.notes_publish span {
+    font-size: 20px;
+    line-height: 50px;
+    color: #1063ea;
+    margin-left: 13px;
+}
+
+.notes_publish_scr {
+    height: 406px;
+    width: 400px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+.notes_publishpic {
+    overflow: hidden;
+    margin-right: 26px;
+    border-bottom: 2px solid #ebebea;
+    padding: 10px 0 10px 0;
+    width: 400px;
+}
+
+.notes_publishpic1, .notes_publishpic3 {
+    float: left;
+}
+
+.notes_publishpic1, .notes_publishpic1 img {
+    width: 62px;
+    height: 62px;
+}
+
+.notes_publishpic4 a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #249bd3;
+}
+
+.notes_publishpic .notes_publishpic2 {
+    font-size: 14px;
+    color: #2b2b2b;
+    display: block;
+}
+
+.notes_publishpic .notes_publishpic2, .notes_publishpic p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+    width: 310px;
+}
+
+.notes_publishpic p {
+    font-size: 12px;
+    color: #666;
+    height: 18px;
+}
+
+.notes_publishpic img {
+    width: 62px;
+    height: 56px;
+}
+
+.notes_publishpic3 {
+    margin-left: 10px;
+    width: 315px;
+}
+
+.notes_publishpic4 span {
+    font-size: 12px;
+    color: #b7b7b7;
+    display: block;
+}
+
+.notes_publishpic4 span a {
+    display: block;
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.notes_publishpic4 {
+    overflow: hidden;
+}
+
+.notes_publishpic .notes_publishpic4 a {
+    color: #b7b7b7;
+    line-height: 14px;
+}
+
+/*56人热门游戏end*/
+/*56人商城*/
+#shop {
+    width: 1200px;
+    padding-top: 25px;
+    margin: auto;
+}
+
+
+/*左边*/
+
+.more span {
+    font-size: 14px;
+    color: #ffae2e;
+    border: 1px solid #ddd;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 8px 0 8px;
+}
+
+
+/*56人商城end*/
+/*热卖区*/
+.shop_hot {
+    width: 1200px;
+}
+
+.shop_hottitle {
+    line-height: 28px;
+    height: 28px;
+    width: 1200px;
+    padding-top: 20px;
+}
+
+.shop_hottitle span, .shop_hottitle a {
+    display: block;
+}
+
+.shop_hottitle span {
+    float: left;
+    font-size: 20px;
+    color: #3d3d3d;
+
+}
+
+.shop_hottitle a {
+    float: right;
+    font-size: 12px;
+    color: #999;
+}
+
+.shop_content {
+    width: 1200px;
+    overflow: hidden;
+    clear: both;
+    padding-top: 10px;
+}
+
+.shop_content dl {
+    width: 210px;
+    float: left;
+    margin-right: 34px;
+    border: 1px solid #ccc;
+}
+
+.shop_content a {
+    color: #444;
+}
+
+.shop_content .shop_contenta, .shop_content .shop_contenta img {
+    display: block;
+    width: 210px;
+    height: 130px;
+}
+
+.shop_content dt {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.shop_content dt span {
+    overflow: hidden;
+
+}
+
+.shop_content dt span a {
+    display: block;
+    float: left;
+    height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.shop_content dt a:hover {
+    color: #ff8800;
+}
+
+.shop_content dd {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5px;
+    color: #a1a1a1;
+    width: 200px;
+    padding-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.shop_content img {
+    width: 210px;
+    height: 130px;
+}
+
+.shop_cost {
+    overflow: hidden;
+    margin: 10px 0 10px 0;
+    padding-left: 5px;
+}
+
+.shop_cost1, .shop_cost2 {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.shop_cost1 {
+    float: left;
+    font-size: 16px;
+    color: #ff3d46;
+    font-weight: bold;
+}
+
+.shop_cost2 {
+    float: right;
+    font-size: 12px;
+    line-height: 14px;
+    color: #a1a1a1;
+    text-align: right;
+    margin: 4px 5px 0 0;
+}
+
+.shop_cost3 {
+    text-decoration: line-through;
+}
+
+/*邮轮*/
+.passenger {
+    width: 1200px;
+    padding-top: 25px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*左边*/
+.passenger_leftside {
+    width: 294px;
+    height: 430px;
+    float: left;
+}
+
+.passenger_rightside {
+    width: 896px;
+    height: 430px;
+    float: right;
+}
+
+/*右边*/
+.passenger_nav {
+    border-bottom: 3px solid #0ec5cc;
+    height: 32px;
+}
+
+.passenger_nav span {
+    display: block;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.passenger_nav .dynamic {
+    background-position: -90px -288px;
+}
+
+.passenger_nav .dynamic2 {
+    font-weight: bold;
+}
+
+.passenger .more {
+    float: right;
+}
+
+.passenger .more span {
+    font-size: 14px;
+    color: #0ec5cc;
+    border: 1px solid #ddd;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 8px 0 8px;
+}
+
+
+/*邮轮end*/
+

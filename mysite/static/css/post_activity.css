@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import url('style.css');
+@import url('laydate.css');
+@import url('laydate2.css'); 
+
+.cen_ter{ width:100%; background:#f8f8f8; padding-bottom:70px;}
+.cen_ter_lf{ width:895px;}
+.byr{ width:895px; height:50px; line-height:50px; font-family:'SimSun'; font-size:14px; color:#666666;}
+.span_a{ font-family:'SimSun'; font-size:14px; color:#f39600;}
+.jb_plan{ width:895px; height:46px;}
+.fqjb{ height:46px; line-height:46px; top:0; left:0;}
+.plan_need{ width:275px; height:46px; background:#ff8a00; display:block;top:0; right:0; line-height:46px; text-align:center;}
+.plan_need i{ background-image:url('../images/jia.png'); width:15px; height:15px; display:block; position:absolute; top:15px; left:20px;}
+.a_tit{ width:893px; height:48px; border-radius:5px; background:#fff; color:#717171; text-indent:24px; line-height:24px; border:1px solid #fff;}
+.phone{ width:234px; height:48px; border-radius:5px; background:#fff; color:#717171; text-indent:24px; line-height:24px; border:1px solid #fff;}
+.title_a p{ font-size:14px; color:#ff0000; line-height:48px; position:absolute; right:65px; top:95px;}
+.add_ress{ width:418px; height:48px;border-radius:5px; background:#fff; color:#717171; text-indent:50px; line-height:24px; border:1px solid #fff;}
+.i_1{width:18px; height:18px; background-image:url('../images/add.png'); top:37px; left:25px;}
+.i_2{ width:20px; height:20px; background-image:url('../images/jia_yuan.png');top:35px; left:385px;}
+.i_3{ width:18px; height:18px; background-image:url('../images/fb.png'); top:37px; left:25px;}
+.i_4{ width:18px; height:18px; background-image:url('../images/date.png'); top:37px; left:25px;}
+.title_a.pic_i{ width:895px; height:50px;}
+.day{ width:268px; height:48px; border-radius:5px; background:#fff; color:#717171; text-indent:24px; line-height:24px; border:1px solid #fff;}
+.i_5{ width:11px; height:21px; background-image:url('../images/people.png');top:37px; left:25px;}
+.day_1{ width:268px; height:48px; border-radius:5px; background:#fff; color:#717171; text-indent:50px; line-height:24px; border:1px solid #fff;}
+.i_6{width:13px; height:17px; background-image:url('../images/money.png');top:37px; left:25px;}
+.ul_lia ul li{ float:left; font-family:'SimSun'; font-size:12px; color:#b1b1b1; margin-left:10px; padding:10px; background:#fff; border:1px solid #fff; cursor:pointer;}
+.current_a{ border:1px solid #ff8a00 !important;}
+.m_s{ width:895px; height:266px; background:#fff; border-radius:5px; overflow:hidden; display:none;}
+.m_s p{ font-size:14px; color:#c0c2c3; width:855px; padding-top:20px; margin:0 auto;}
+.add_img{ width:100px; height:100px; background:#fff;}
+.add_img i{ background-image:url('../images/hui_jia.png'); display:block; width:50px; height:50px; position:absolute; top:25px; left:25px;}
+.add_img p{ color:#999999; font-size:12px; width:895px; line-height:30px; position:absolute; top:105px; left:0px;}
+.cnajia{ width:275px; height:46px; background:#ff8a00; display:block;top:0; right:0; line-height:46px; text-align:center;}
+.cnajia i{ background-image:url('../images/jia.png'); width:15px; height:15px; display:block; position:absolute; top:15px; left:20px;}
+.plan{ width:285px; background:#fff; height:80px;}
+.plan ul li{ float:left; width:142px; height:80px;}
+.plan ul li span{ color:#ff8a00; width:142px;}
+.plan ul li p{ font-family:'SimSun';color:#7a7a7a; width:142px;}
+.hot_men{ height:410px; width:285px}
+.hot_top{ width:285px; background:#fff; top:0; left:0; display:block;}
+.hello{ width:245px !important; line-height:24px; text-align:center !important; color:#7a7a7a; display:block;}
+.hello p{ width:245px; text-align:center;}
+.name{ color:#7a7a7a; top: 325px; left:60px;}
+.ppp{ color:#d10000; top:340px; left:60px;}
+.span{ color:#7a7a7a; font-family:'SimSun';}
+.seven{ font-weight:bold; font-style:italic;}
+.img_i{ display:block; width:20px; height:24px; background-image:url('../images/bj.png'); top:370px; right:10px;}
+.hot_li { width:80px;  bottom:-20px;  left:47%; margin-left:-40px;}
+.hot_li  li{ float:left; width:10px;  background:#d8d8d8; margin-left:10px; cursor:pointer; height:10px}
+.hot_li li.currentt{ background:#1badb6}
+
+.hotel_search_text,.hotel_search_text1{ border:1px solid #ccc; height:24px; text-indent:10px; cursor:pointer;}
+.text{border:none;width:98%; background:#fff; margin:0 auto !important; display:block; color:#666; line-height:30px; margin-top:10px !important; font-size:14px; font-family:"微软雅黑";}

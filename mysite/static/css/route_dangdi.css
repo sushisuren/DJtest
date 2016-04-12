@@ -1,0 +1,72 @@
+@charset "utf-8";
+.detail{width:100%; background:#fff;}
+.detail_l_t{ width:895px;}
+.detail_l_t{ background:#fff;}
+.title_p{ font-family:'SimSun'; line-height:20px;}
+
+/*nav bottom fixed*/
+.fix{position: fixed;top:0;left:50%;margin-left:-600px;z-index:200;}
+.tab_con{ width:1200px; background:#525c62;}
+.tab_con_ul li.tab_con_li{ width:104px; height:42px; line-height:42px; color:#fff;}
+.tab_con_ul li.tab_con_li:hover{ color:#f39600;}
+.tab_con_ul li.tab_bg{ border-color:#0e6eb8; background:#0e6eb8; color:#fff;}
+.tab_detail{ background:#fff; width: 895px;}
+.tab_detail_h{ border-bottom:2px solid #ddd;}
+/*column*/
+.fonS{ font-family: 'SimSun';}
+.p_a:hover{ color: #0099ff !important; text-decoration: underline;}
+.fon28{ font-size: 28px;}
+.lin30{line-height: 30px;}
+.guanzhu{ width: 58px; height: 18px; background: #fff; color: #ff6633; border:1px solid #ff6633; border-radius: 3px; line-height: 18px;}
+.gz_eye{background: url("../images/ddr_2.png") no-repeat -9px -8px; width: 25px; height: 18px;}
+.mt6{margin-top: 6px;}
+.gz_new{background: url("../images/ddr_2.png") no-repeat -51px -8px; width: 25px; height: 18px;}
+.bla{ width: 895px;}
+.bot_right{ width: 285px; background: #fff;}
+.bot_text{ border: 1px dashed #ccc; height: 286px; width: 893px; resize: none; font-family: '微软雅黑'; margin: 0 auto;}
+.shang{ background: url("../images/ddr_2.png") no-repeat -9px -68px; width: 22px; height: 18px; display: block; top:0px; left: 0px;}
+.xia{ background: url("../images/ddr_2.png") no-repeat -51px -72px; width: 22px; height: 18px; display: block;}
+.p_span{width: 853px; margin: 0 auto; text-indent: 24px;}
+.top_h1{ font-size: 30px; border-bottom: 1px dashed #ccc;}
+.route{ border-left: 1px solid #ccc; width: 865px;}
+.list_1{ width: 815px; margin-left: 50px;}
+.fon26{ font-size: 26px;}
+.list_span{ width: 60px; height: 60px; line-height: 60px; border-radius: 38px; background: #0099ff; border: 8px solid #fff; top:-15px; left: -88px;}
+.subway{width: 100%; height: 30px; background: #eff1f7; text-indent: 10px;}
+.list_p_span{ top:-10px; left: -85px;}
+.list_j_span{ top:-10px; left: -77px;}
+.bor_t{ border-top: 1px dashed #ccc;}
+.about_h1{ margin-top: 70px; border-bottom: 1px dashed #ccc;}
+.color_blue{ color: #3399ff;}
+.about_tab{ border: 1px solid #efefef;}
+.about_tab tr th{ font-size: 14px; color: #333; text-align: center; font-weight: normal; border-right: 1px solid #efefef; height: 50px; line-height: 50px; background: #f7f8fb; border-bottom: 1px solid #efefef;}
+.about_tab tr td{ font-size: 14px; color: #999; text-align: center; border-right: 1px solid #efefef; height: 60px; line-height: 80px; border-bottom: 1px solid #efefef;}
+.color_yellow{ color: #ff6600 !important;}
+.yuding{ width: 70px; height: 26px; display: block; margin: 0 auto; line-height: 26px; border:1px solid #ff6600; border-radius: 5px;}
+/*评论*/
+.bott_lm{width:895px; margin:0 auto;}
+.text_mess{ width:797px; height:80px; border:1px solid #ccc; resize:none;}
+.mess_a{ width:82px; height:82px; line-height:82px; background:#f9f9f9; }
+.mess_a:hover{ background:#ff8a00; color:#fff !important;}
+.mess_tp{ width:895px; height:50px; background:#f9f9f9;}
+.zhug{ width:52px; height:16px; line-height:16px; color:#ff8a00; border:1px solid #ff8a00; border-radius:2px;}
+.mess_p{ top:18px; right:20px;}
+.mess_p a:hover{ color:#ff8a00 !important;}
+.huifu_p{ width:845px; margin-left:50px;}
+.num_cen{ margin-left:310px;}
+.num_cen a{float:left;}
+.num_cen p{float:left;padding:0 10px;line-height:36px; font-size:30px;}
+.num_cen p span{color:#ff8a00;padding:0 5px; font-size:30px;}
+.seven{padding:0 5px;color:#333 !important;}
+/*right*/
+.top_li{ border:1px dashed #ccc; height: 55px; line-height: 55px;}
+.top_mdd{background: url("../images/ddr_2.png") no-repeat -89px -8px; width: 25px; height: 25px;}
+.top_xc{background: url("../images/ddr_2.png") no-repeat -9px -37px; width: 25px; height: 25px;}
+.top_rj{background: url("../images/ddr_2.png") no-repeat -51px -37px; width: 25px; height: 25px;}
+.top_yw{background: url("../images/ddr_2.png") no-repeat -89px -37px; width: 25px; height: 25px;}
+.right_h1{ border-bottom: 1px solid #ccc;}
+.wid88{ width: 88px;}
+.wid177{ width: 177px;}
+.pro_p{overflow: hidden; width: 177px; height: 36px;}
+.product_li:hover .pro_p{ color:#ff6600 !important; }
+.fix1{position: fixed;top:42px;left:50%;margin-left:315px;z-index:200;}

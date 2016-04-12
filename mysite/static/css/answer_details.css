@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('header.css');
+ 
+
+.message{ width:100%; background:#f8f8f8;}
+.message1{background: #fff; width: 895px;}
+.answer_con{ border-bottom: 1px solid #f1f1f1;}
+.answer_title{ width: 780px;}
+.answer_title p{ width: 780px;}
+.answer_title_p{ line-height: 20px; height: 40px; overflow: hidden;}
+.answer_title_a{ height: 20px;line-height: 20px;background: #f1f1f1;}
+.answer_bottom1{ width: 80px;height: 24px; border: 1px solid #f39600;line-height: 24px;}
+.answer_bottom2{ width: 82px;height: 26px; background: #f39600;line-height: 26px;}
+.message_in{ width: 395px; height: 30px;}
+.answer_pi_a{ width: 52px;height: 52px;}
+.answer_pi{ width: 24px; height: 24px;background: url("../images/image2.png") no-repeat -76px -263px; right: 0;bottom: 0;}
+.message_i{ width: 14px;height: 14px;background: url("../images/image2.png") no-repeat -52px -270px;left: 380px;top: 10px}
+/*答*/
+.answer_da_title{ width: 850px;background:#f9f9f9;height: 52px;}
+.answer_da{width: 24px; height: 24px;background: url("../images/image2.png") no-repeat -108px -265px; right: 0;bottom: 0;}
+.company_span{ color: #d10000;}
+.answer_d1{border-bottom: 1px solid #ccc;}
+.company_a{height: 16px;width:52px;border: 1px solid #f39600;line-height: 16px;}
+.answer_lun{width: 780px;}
+.answer_lun{margin-left: 60px;}
+/*我要回答*/
+.my_answer{margin-top: 50px;}
+.my_answer textarea{width: 730px;height: 80px;resize: none;}
+.my_answer_a{width:82px;height: 82px; border: 1px solid #f39600;line-height: 82px; color:#f39600;}
+.my_answer_a:hover{background: #f39600;color: #fff;}
+/*右侧*/
+.my_answer_box{ width: 285px;}
+.answer_button{width: 285px;height: 50px; background: #f39600;line-height: 50px;}
+.my_bg{background: #fff;}
+.my_w{width: 245px;}
+.my_ul{height: 220px;overflow: hidden;}
+.active_join1.baifen{height: 100%;}
+.my_ul li{ border-top: 1px dotted #cccccc;}
+.active_derec.active_i{width: 36px;height: 20px;background: url("../images/image2.png") no-repeat -50px -232px;margin: 5px auto 20px auto}
+.my_ul li p{line-height: 16px;width: 230px;}
+.active_derec{width: 36px;height: 20px;background: url("../images/image2.png") no-repeat -50px -200px;margin: 5px auto 20px auto}
+
+.active_join1.baifen{ height: 100%;}
+
+/*问答*/
+.pl_a{ width:798px; margin-left: 52px;display: none;}
+.text1{border:1px solid #ccc !important;width:98%; background:#fff; margin:0 auto !important; display:block; color:#666 !important; line-height:30px;  font-size:12px; font-family:"微软雅黑"; resize: none;}
+.fb{ width:80px; height:30px; line-height:30px; background:#F39600; border-radius:5px;}
+.img_a_a{ width:40px; height:20px; line-height:20px;}
+.img_a{ width:50px;}
+.img_pl{ width:740px;}
+.pingl{ width:790px;}

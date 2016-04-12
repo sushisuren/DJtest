@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('style.css');
+
+h3,h4{ font-weight:normal;}
+/*填写信息*/
+.header{ width:100%; background:#fff;}
+.c_logo a{ background:url(../images/logo.png) no-repeat; width:135px; height:51px;text-indent:-9999px;}
+.toolkit ul{ margin-top:30px;}
+.toolkit ul li a i{ display:inline-block; width:15px; height:15px; background:url(../images/tel.png) no-repeat; }
+.toolkit ul li a{color:#666;}
+.toolkit ul li a:hover{ color:#f39600; text-decoration:underline}
+
+.bg{ background:#fff;}
+.bg_h{ background:#f8f8f8;}
+.cart-filter-bar{ border-bottom:2px solid #ccc;}
+.cart-filter-bar h3{ color:#7cc5f8}
+.cart-filter-bar  i.shan{ width:100%; height:2px; background:#7cc5f8; left:0; bottom:-16px;}
+.cart-filter_r a{ width:100px; height:30px; background:#e5e5e5; line-height:30px;}
+
+
+.item-list{ background:#f0f8ff;}
+.item-list1{background:#fff;}
+.wp ul li{ height:50px; line-height:50px;}
+.th-chk,.td-chk{ width:60px; }
+.th-item,.td-item{ width:342px;}
+.th-info,.td-info{ width:212px;}
+.th-price,.td-price{ width:130px}
+.th-amount,.td-amount{ width:120px;}
+.th-sum,.td-sum{ width:140px;}
+.th-op,.td-op{ width:120px}
+.td-item p{ width:340px; line-height:24px; height:48px;}
+.td-info p{width:200px;line-height:24px; height:48px;}
+.price-original{ text-decoration:line-through}
+/*数量*/
+.td-amount a{ width:18px; height:18px;background-color:#f3f3f3;}
+.td-amount a i.minus_i{ width:12px; height:2px; background:url(../images/image1.png) no-repeat -9px -245px; margin:8px 0 0 3px;}
+.td-amount a i.plus_i{width:12px; height:12px;background:url(../images/image1.png) no-repeat -9px -263px; margin:2px 0 0 3px;}
+.td-amount p{width:30px; height:18px;}
+.td-amount p input{ width:30px; height:16px; line-height:16px;}
+/*选项卡*/
+
+.referral li{ width:100px; height:20px; line-height:20px; border-right:1px solid #ddd; }
+.referral li.re_colo{ color:#f39600;}
+.referral ul{ border-bottom:2px solid #ddd;}
+.referral ul li i{ width:100%; height:2px; background:#f39600; bottom:-12px; left:0;}
+.referral dl{ background:#fff;}
+
+.referral dl dd p{ line-height:24px; width:273px; height:48px; overflow:hidden;}
+.referral dl dd a{width:273px; }
+/*底部*/ 
+.float-bar{ height:50px; line-height:50px; background:#f0f8ff}
+.float-bar a{ color:#666;}
+.float-bar a:hover{ color:#f39600; text-decoration:underline;}
+.submit-btn{ height:50px; width:100px; background:#f39600; line-height:50px;}
+.submit-btn-disabled{ margin-top:3px;}
+
+/*底部*/
+.bottom{ border-top:1px solid #ccc;}
+/*删除弹出*/
+.dele_float{ width:100%; height:100%; position:fixed; left:0; top:0;}
+.dele_k{ width:440px; height:120px; border:5px solid #999; background:#f8f8f8;position:fixed; left:50%; top:50%; margin-left:-220px; margin-top:-60px;}
+.dele_k1{ width:60px; height:32px; background:#7cc5f8; line-height:32px;}
+.dele_k2{ width:58px; height:30px; background:#fff; border:1px solid #ccc;line-height:28px;}
+.dele_float i{ width:27px; height:27px; background:url(../images/image.png) no-repeat -192px -138px; right:-12px; top:-12px;}

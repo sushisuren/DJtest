@@ -1,0 +1,415 @@
+@charset "utf-8";
+body,html{
+	width:100%;
+	height:100%;
+	}
+img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	}
+.frame{
+	width:400px;
+	height:500px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-250px;
+	margin-left:-200px;
+	}
+.frame_img{
+	width:400x;
+	overflow:hidden;
+	height:55px;
+	clear:both;
+	}
+.frame_img img{
+	width:139px;
+	height:55px;
+	display:block;
+	padding-left:130px;
+	margin-top:-50px;
+	}
+.frame_wo{
+	width:398px;
+	border:1ox solid #f8f8f8;
+	background:#fffcf6;
+	border-radius:5px;
+	}
+.frame_t{
+	width:328px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-bottom:20px;
+	}
+.fra_ul{
+	overflow:hidden;
+	}
+.fra_ul li{
+	list-style:none;
+	float:left;
+	width:164px;
+	font-size:16px;
+	color:#cccccc;
+	margin-top:25px;
+	line-height:30px;
+	padding-bottom:20px;
+	text-align:center;
+	cursor:pointer;
+	}
+.line{
+	width:328px;
+	border-top:1px solid #cccccc;
+	clear:both;
+	}
+.t_b{
+	font-size:26px !important;
+	color:#0099cc !important;
+	border-bottom:3px solid #0099cc !important;
+	}
+.login_fra{
+	width:328px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	}
+.phone{
+	width:320px;
+	height:30px;
+	line-height:14px;
+	border:1px solid #ececec;
+	border-radius:5px;
+	text-indent:24px;
+	margin-top:20px;
+	font-size:14px;
+	color:#999999;
+	}
+.password{
+	width:320px;
+	height:30px;
+	line-height:14px;
+	border:1px solid #ececec;
+	border-radius:5px;
+	text-indent:24px;
+	margin-top:20px;
+	font-size:14px;
+	color:#999999;
+	}
+.dl{
+	width:328px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:5px;
+	background:#0099cc;
+	margin-top:30px;
+	font-size:18px;
+	color:#fff;
+	}
+.pass{
+	width:324px;
+	margin:0 auto;
+	position:relative;
+	height:30px;
+	}
+.pass a{
+	font-size:12px;
+	color:#999999;
+	font-family:'SimSun';
+	position:absolute;
+	top:0;
+	right:0;
+	line-height:30px;
+	}
+.pass lable{
+	font-size:12px;
+	color:#999999;
+	font-family:'SimSun';
+	position:absolute;
+	top:0;
+	left:0;
+	line-height:30px;
+	cursor:pointer;
+	}
+.pass lable i{
+	background-image:url('../images/butt.png');
+	height:13px;
+	width:13px;
+	display:block;
+	float:left;
+	margin-top:7px;
+	}
+.pass lable i.on{
+	background-position:0 -16px;
+	}
+.pass lable p{
+	float:left;
+	margin-left:5px;
+	}
+.login_fra p{
+	font-size:12px;
+	font-family:'SimSun';
+	color:#999999;
+	line-height:30px;
+	text-align:center;
+	}
+.i_1{
+	background-image:url('../images/icon.png');
+	display:block;
+	height:36px;
+	width:36px;
+	float:left;
+	}
+.i_1:hover{
+	background-position:0 -38px;
+	}
+.i_2:hover{
+	background-position:111px -38px;
+	}
+.i_3:hover{
+	background-position:74px -38px;
+	}
+.i_4:hover{
+	background-position:37px -38px;
+	}
+
+.i_2{
+	background-image:url('../images/icon.png');
+	display:block;
+	height:36px;
+	width:36px;
+	float:left;
+	background-position:111px 0;
+	}
+.i_3{
+	background-image:url('../images/icon.png');
+	display:block;
+	height:36px;
+	width:36px;
+	float:left;
+	background-position:74px 0;
+	}
+.i_4{
+	background-image:url('../images/icon.png');
+	display:block;
+	height:36px;
+	width:36px;
+	float:left;
+	background-position:37px 0;
+	}
+.login_fra p span{
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	overflow:hidden;
+	width:185px;
+	margin-top:20px;
+	}
+.login_fra p span a i{
+	margin-left:10px;
+	}
+.spana span{
+	font-size:12px;
+	color:#999999;
+	font-family:'SimSun';
+	line-height:30px;
+	}
+.spana{
+	width:324px;
+	margin:0 auto;
+	margin-top:30px !important;
+	}
+.spana span a{
+	font-family:'SimSun';
+	color:#ff6600;
+	}	
+.login_fra{
+	display:none;
+	}
+.img_img{
+	width:275px;
+	height:350px;
+	margin-top:30px !important;
+	margin:0 auto;
+	padding-bottom:15px;
+	}
+.img_img img{
+	width:275px;
+	height:275px;
+	display:block;
+	position:inherit;
+	}
+.img_img p{
+	font-family:'SimSun';
+	font-size:12px;
+	color:#999999;
+	text-align:center;
+	line-height:30px;
+	margin-top:25px;
+	}
+/*注册*/	
+.fra_ul1 li{
+	float:left;
+	padding-left:50px;
+	padding-right:50px;
+	border-bottom:1px solid #cccccc;
+	padding-bottom:20px;
+	font-size:16px;
+	color:#999999;
+	text-align:center;
+	line-height:30px;
+	padding-top:25px;
+	cursor:pointer;
+	}
+.t_b1{
+	color:#0099cc !important;
+	border-bottom:2px solid #0099cc !important;
+	padding-bottom:20px;
+	}
+.code{
+	width:180px;
+	height:30px;
+	line-height:14px;
+	border:1px solid #ececec;
+	border-radius:5px;
+	text-indent:24px;
+	margin-top:20px;
+	font-size:14px;
+	color:#999999;
+	}
+.codea{
+	width:180px;
+	height:30px;
+	line-height:14px;
+	border:1px solid #ececec;
+	border-radius:5px;
+	text-indent:24px;
+	margin-top:20px;
+	font-size:14px;
+	color:#999999;
+	}
+
+.ycode{
+	width:126px;
+	height:30px;
+	position:absolute;
+	top:76px;
+	right:0;
+	}
+.send{
+	width:125px;
+	height:30px;
+	border-radius:5px;
+	background:#0099cc;
+	position:absolute;
+	top:130px;
+	right:0;
+	}
+.send a{
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	display:block;
+	}
+.dl_1{
+	width:328px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border-radius:5px;
+	background:#0099cc;
+	margin-top:30px;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+	}
+.agrgee{
+	width:328px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	margin-top:60px;
+	height:30px;
+	}
+.login_dl{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:14px;
+	font-family:'SimSun';
+	color:#999999;
+	line-height:30px;
+	}
+.login_dl a{
+	font-size:14px;
+	font-family:'SimSun';
+	color:#ff6600;
+	cursor:pointer;
+	}
+.yh_agr{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	font-size:14px;
+	font-family:'SimSun';
+	color:#999999;
+	line-height:30px;
+	}
+.yh_agr a{
+	font-family:'SimSun';
+	font-size:14px;
+	color:#0099cc;
+	}
+.login_fra1{
+	width:328px;
+	margin:0 auto;
+	position:relative;
+	display:none;
+	overflow: hidden;
+	}
+/*设置密码*/
+.warm{
+	width:328px;
+	height:30px;
+	position:absolute;
+	overflow:hidden;
+	top:58px;
+	left:0;
+	}
+.warm i{
+	background-image:url('../images/szmm.png');
+	width:11px;
+	height:11px;
+	display:block;
+	float:left;
+	margin-top:9px;
+	}
+.warm p{
+	font-size:12px;
+	font-family:'SimSun';
+	color:#999999;
+	line-height:30px;
+	display:block;
+	float:left;
+	margin-left:5px;
+	}
+
+/*修改密码*/
+.pa_bot{ padding-bottom: 70px; display: block}
+.find{ width: 240px; margin: 0px auto; padding-bottom: 120px;}
+.find_a{ width: 328px;margin: 0px auto; padding-bottom: 120px;}
+.find_i{background: url("../images/find_succ.png"); width: 36px; height: 36px;}
+.find_p1{margin-top: 80px;}
+.lin36{line-height: 36px;}
+.a_li{ width: 188px; height: 35px; background: #0099CC; margin: 40px auto 20px;line-height: 30px; border-radius: 5px;}
+.mb20{ margin-bottom: 20px !important;}
+.top{ top:96px !important;}
+.colorblue{ color: #00a0e9; white-space: nowrap; top:65px; right:5px;}
+.colorred{ color: #cc3300;}
+.q_li{ width: 328px; height: 30px; background: #0099CC; margin-top: 20px; line-height: 30px; border-radius: 5px;}
+.find_pt{margin-top: 40px;}

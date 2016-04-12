@@ -1,0 +1,47 @@
+@import url("header.css");
+@charset "utf-8";
+/*left nav*/
+.order_cen_l{ width:188px;}
+.cen_ul{ border:1px solid #ccc; background:#fafafa;}
+.li_a{ height:60px; background:#99ccff; line-height:60px;}
+.cen_li_a{ width:100%; height:40px;}
+.cen_li_a:hover .span_a1{ color:#9CF !important;}
+.cen_li_i{ background:url('../images/icon_1.png') no-repeat; width:17px; height:17px; top:20px; left:20px;}
+.cen_li_i1{ background-position:-424px -52px;}
+.cen_li_i_2{ background-position:-447px -52px;}
+.cen_li_i3{ background-position:-472px -50px;}
+.cen_li_i4{ background-position:-499px -51px;}
+.cen_li_i5{ background-position:-525px -52px;}
+.cen_li_i6{ background-position:-546px -52px;}
+.cen_li_i7{ background-position:-550px -83px;}
+.span_a1{ margin-left:50px;}
+.cen_li_i2{ background:url('../images/icon_1.png') no-repeat -501px -123px; width:7px; height:7px; top:25px; right:25px;}
+.cen_li_i2_2{ background-position:-480px -122px;}
+.pull_li{ width:188px; height:36px; line-height:36px;}
+.currenta{ background:#99ccff; color:#fff !important;}
+.pull_a{ padding-left:60px;}
+.pull_a:hover{background:#99ccff; color:#fff !important;}
+
+.order_cen_r{ width: 984px;}
+.jf_tit{line-height: 30px; color: #1063EA;}
+.box_jf{width:984px ; height: 116px;  border:1px solid #ccc ;border-top:2px solid  #1063EA  ; }
+.box_jf li{ width: 327px; float: left; text-align: center;border-right:1px solid #ccc ; height: 116px;}
+.lj_more{ color: #1063ea;}
+.jf_how{color: #10a200; font-size: 30px;}
+.no_right{ border-right: none !important;}
+.p_dhjf{ overflow: hidden;}
+.dh_jf{ line-height: 45px;display: block; width: 180px; height: 45px; background: yellow; margin: 30px auto 0; border-radius:5px ; border: 1px solid #f08100; background: #ffb000; font-weight: 400; letter-spacing: 2px;}
+.table_box{ margin:10px 5px; }
+.tb_cash{ width: 100%;}
+.tb_cash tr th{ font-weight: normal; font-size: 14px; background: #f0f0f0;    padding: 10px 5px; border-bottom: 1px solid #ccc;}
+.tb_cash tr td{ padding: 10px 5px;border-bottom: 1px dotted #ccc; text-align: center; font-size:inherit; }
+.h_mxjf{ height: 100%; border-bottom: none;}
+.page_jf{width: 80px; line-height: 30px; height: 30px; background: #fcfcfc; display: inline-block; margin: 4px 0;}
+.page_ym{width: 24px; height: 24px; background: #1063EA; display: inline; text-align: center; padding: 5px 8px;}
+/* 兑换部分*/
+.fresh{ -background:#f8f8f8;}
+.fresh_a{ font-family:'SimSun'; top:10px; right:0px; padding-right:30px;}
+.fresh_i1{ background:url('../images/icon_1.png') no-repeat -288px -118px; width:18px; height:18px; top:1px; right:0px;}
+.fresh_li{ background:#fff; width:220px;}
+
+

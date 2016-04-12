@@ -1,0 +1,102 @@
+@charset "utf-8";
+h3{ font-weight:normal}
+/*left nav*/
+.order_cen_l{ width:188px;}
+.cen_ul{ border:1px solid #eeeeee; background:#fafafa;}
+.li_a{ height:60px; background:#99ccff; line-height:60px;}
+.cen_li_a{ width:100%; height:40px;}
+.cen_li_a:hover .span_a1{ color:#9CF !important;}
+.cen_li_i{ background:url('../images/icon_1.png') no-repeat; width:17px; height:17px; top:20px; left:20px;}
+.cen_li_i1{ background-position:-424px -52px;}
+.cen_li_i_2{ background-position:-447px -52px;}
+.cen_li_i3{ background-position:-472px -50px;}
+.cen_li_i4{ background-position:-499px -51px;}
+.cen_li_i5{ background-position:-525px -52px;}
+.cen_li_i6{ background-position:-546px -52px;}
+.span_a1{ margin-left:50px;}
+.cen_li_i2{ background:url('../images/icon_1.png') no-repeat -501px -123px; width:7px; height:7px; top:25px; right:25px;}
+.cen_li_i2_2{ background-position:-480px -122px;}
+.pull_li{ width:188px; height:36px; line-height:36px;}
+.currenta{ background:#99ccff; color:#fff !important;}
+.pull_a{ padding-left:40px;}
+.pull_a:hover{background:#99ccff; color:#fff !important;}
+/*首页*/
+.c_rty_li{ width:350px;}
+.c_rtyscontent .c_rty_li a{ color:#2185c1; background:#fff;}
+.c_rtyscontent .c_rty_li a:hover{ background:#eee;}
+/*人工申诉*/
+.c_head1{ border-bottom:1px solid #ccc; height:28px; line-height:28px;}
+.c_require{ color:#ff0000; line-height:22px;}
+.c_require a{ color:#2185c1;}
+.sumb_top01 dl dt, .sumb_top02 dl dt {width: 106px;line-height: 24px; height:24px;}
+.addinputtrans{ width:584px; height:110px;}
+.sumb_top01{border-bottom:1px solid #ccc;}
+.name1{ width:298px; height:22px;}
+.name2{ width:100px;  height:22px;}
+.sub{ width:100px; height:30px; background:#64a10a; line-height:30px;}
+/*账号申请*/
+.ph{ line-height:28px;}
+.c_selfdoitlist dt{ width:100px;}
+.c_selfdoitlist dd{ width:600px;}
+.c_selfdoitlist dd a{ color:#2a98da;}
+.c_selfdoitlist dd a:hover{ text-decoration:underline}
+/*在线客服*/
+.ico_ul li{ margin-right:50px;}
+.ico_ul .ico_ul_a p{color: #666;}
+.ico_ul .ico_ul_a:hover p{color: #f39600;}
+.scenec_ico,.hotel_ico,.self_ico,.youlun_ico,.guonei_ico,.flight_ico,.iflight_ico,.abroad_gen_ico,.abroad_ico,.visa_ico,.train_ico{width:105px; height:105px;}
+.scenec_ico{  background:url(../images/onlineser.png) no-repeat 0 0}
+.hotel_ico{background:url(../images/onlineser.png) no-repeat 0 -116px}
+.self_ico{background:url(../images/onlineser.png) no-repeat 0 -235px}
+.youlun_ico{background:url(../images/onlineser.png) no-repeat 0 -355px}
+.guonei_ico{background:url(../images/onlineser.png) no-repeat 0 -477px}
+.flight_ico{background:url(../images/onlineser.png) no-repeat -158px 0}
+.iflight_ico{background:url(../images/onlineser.png) no-repeat -158px -116px}
+.abroad_gen_ico{background:url(../images/onlineser.png) no-repeat -158px -235px}
+.abroad_ico{background:url(../images/onlineser.png) no-repeat -158px -355px}
+.visa_ico{background:url(../images/onlineser.png) no-repeat -158px -477px}
+.train_ico{background:url(../images/onlineser.png) no-repeat 0 -608px}
+/*客户端帮助*/
+.udiyblock{ width:950px;}
+.c_rtitle{ border-bottom:1px solid #ccc;}
+.c_rtyscontent a{ background:#f0f0f0; width:150px;}
+.c_rtyscontent a dl dt{ color:#6185c1;}
+/*问答*/
+.c_rty{ color:#6185c1}
+/*提示样式*/
+.form_control.active {border: 1px #32BC61 solid;
+  }
+.form_control.error {border: 1px #f00 solid;background-color: #FBF9BB;}
+
+.form_control.error input[type="text"] { background-color: #FBF9BB;color: #f00;}
+
+input[type="text"]:focus{outline: none;}
+.form_control .valid_message { color: #32BC61;position: absolute; right: -220px;
+    top: 5px;
+    width: 200px;
+
+  }
+.form_control {
+    border: 1px #ccc solid;
+  }
+  .form_control.success .valid_message {
+    background:url(../images/sucess.png) no-repeat;
+    left: auto;
+    right: 5px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+  }
+  .none {
+    display: none;
+  }
+/*底部*/
+.bottom{ border-top:1px solid #ccc;}
+/*右侧*/
+.answer_if{background: #f0f0f0;border: 1px solid #ddd;}
+.answe_con{line-height: 20px;}
+.yes{width:60px;height: 24px;background: #64A10A;border-radius: 4px;text-align: center;line-height: 24px;color: #fff;}
+.select{line-height: 24px;}
+.ans_i{width: 16px;height: 16px;background: url("../images/sucess.png");margin-top: 3px;}
+.anwer_input{top: 3px;left: 0;}
+.anwer_input_a{border: 1px solid #ccc;border-radius: 4px;color: #005bb5;height: 20px;line-height: 18px;background: #fff;}

@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('header.css');
+@import url('datepicker.css');
+input{border:none;}
+img{ display:block;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+.main{width:100%;}
+
+
+/*城市box 布局样式*/
+
+/*城市*/
+.city_search{left:0; top:32px; z-index:10;width:398px; background:#fff;}
+.city_search .city_sea .search_city_hot a,.city_down_list dd a,.com_results dl a{ display:inline-block; margin-right:8px; line-height:22px}
+.city_down_list dt{ width:40px;}
+.city_down_list dd{ width:320px;}
+.city_search a:hover{ text-decoration:underline}
+
+/*搜索框*/
+#box{ width: 1200px; height: 74px;margin: 0 auto;clear:both; padding-top:10px;}
+.search_gre{ width: 1080px; height: 74px;  float: left; }
+.but{ width: 105px;height: 74px; background: #64AB07; float: right;}
+.but a{ display:block; line-height:74px; text-align: center; color:#fff ; font-size:16px; height: 74px;}
+.inpcomm{  border: 3px solid #64AB07;float: left; border-top: none; border-left: none; position: relative;}
+.inp_txt{ line-height: 35px; text-indent: 20px; border: none;letter-spacing: 1px;  color:#9a9a9a;}
+.inp{ width: 1074px; height: 35px;border: 3px solid #64AB07;}
+.inp1{ width: 207px;height: 35px;  border-left:3px solid #64AB07  }
+.inp2{ width: 207px;height: 35px;  }
+.inp3{ width: 390px;height: 35px; }
+#box .inp3 i{ display:block; background:url(../images/image.png) no-repeat -118px -2px; width:16px; height:16px; position:absolute; right:10px; top:10px;}
+.inp4{ width: 150px;height: 35px; }
+.inp5{ width: 108px;height: 35px;  }
+.want{ width:1074px ;  height: 33px; }
+.start{   width: 207px; height: 32px;}
+.end{  width: 207px; height: 32px;}
+.stime{  width: 390px; height: 32px;}
+.way{   width: 150px; height: 32px;}
+.num{  width: 108px; height: 32px;}
+.inpcomm .bg_sel{ position: absolute; right: 20px;top: 14px; width: 7px; height: 4px;  display: block;background:url(../images/image.png) no-repeat -47px -290px; cursor: pointer;}
+
+ 
+ /* 出游方式下拉框*/
+.go_way{ width: 148px; height:106px ; border: 2px solid #CCC; position: absolute; display: none; background-color:#fff; z-index:1;}
+.go_way ul li{ text-align: center;}
+.go_way ul li a{ display: block; text-align: center; line-height: 20px; border-top: 1px solid #ccc; font-size: 12px; color:#9a9a9a; }
+.go_way ul li a:hover{ background: #fafafa;}
+
+/*城市选择卡*/
+#city_seleact{ width:1180px; border:10px solid #f8f8f8;margin:10px auto 0 auto}
+#city_seleact .city_go,#city_seleact .city_end,#city_seleact .city_style{ width:1180px;  border-bottom:10px solid #f8f8f8; position:relative;}
+#city_seleact .city_go i.all_pluse,#city_seleact .city_end i.all_pluse{ display:block; width:11px; height:12px; background:url(../images/image.png) no-repeat -194px -51px; position:absolute;right:15px; top:20px;}
+#city_seleact .my_select{width:1180px; height:50px;}
+/*出发城市*/
+#city_seleact .city_go_l{ width:74px; text-align:right;color:#6b6b6b; font-size:14px; line-height:50px; margin-left:14px;}
+#city_seleact .city_go_m{height:18px;line-height:18px;font-size:12px;margin:15px 0 0 12px;}
+#city_seleact .city_go_r{height:50px;line-height:18px;font-size:12px; overflow:hidden;}
+#city_seleact .city_go_r.city_baifen{ height:100%}
+.select_city{ width:900px;}
+#city_seleact .city_go_m select{ width:90px;color:#fc9600;}
+
+#city_seleact .city_go_r a,.city_g_r a{ display:block; float:left; padding:0 12px 0 12px; border:1px solid #fff; color:#404040;}
+.city_g_r a:hover{ color:#fc9600; border:1px solid #fc9600;}
+#city_seleact .city_go_r a:hover{ color:#fc9600; border:1px solid #fc9600;}
+#city_seleact .all_ren{ font-size:14px; color:#404040; height:28px; line-height:28px; margin:11px 0 0 60px; color:#404040;}
+#city_seleact .all_ren input{ border:1px solid #ccc; text-indent:10px; width:50px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin:0 60px 0 20px;}
+/*您已选择*/
+.go{ height:20px; background:#f39600; line-height:20px}
+.go_con{ height:20px; background:#ffb341; line-height:18px}
+.go_con i{ width:10px; height:10px; background:url(../images/image2.png) no-repeat -6px -170px; right:2px; top:5px}
+/*城市选择卡end*/
+/*该页内容*/
+/*城市*/
+#city_ture{ width:1200px; margin:10px auto 0 auto; height:200px; background-color:#f9f9f9; position:relative;}
+#city_ture .name{margin:24px 0 0 24px; width:160px; height:176px;}
+#city_ture .name h2 a{ font-size:30px; color:#333;}
+#city_ture .name h3{ font-size:24px; color:#999;}
+#city_ture .name p{ font-size:14px; color:#666; margin-top:70px;}
+#city_ture .name p span{ font-size:16px; color:#fc9600;}
+#city_ture .name p,#city_ture .name h3,#city_ture .name h2{ width:176px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#city_ture a.q_d,#city_ture a.q_d img{ display:block; width:1006px; height:200px;}
+#city_ture i{ display:block; width:47px; height:19px; position:absolute; left:78px; top:200px; background:url(../images/image.png) no-repeat -215px -6px;}
+/*线路*/
+#city_route{ width:1200px; margin:26px auto 0 auto;}
+#city_route .route_l,#city_route .route_l_f{ width:896px;}
+#city_route .route_con{ width:876px; border-bottom:1px solid #ccc; padding:30px 0 0 20px;}
+#city_route .route_con:hover{ background-color:#f9f9f9;}
+#city_route .route_con_l{ width:400px; position:relative;}
+#city_route a.route_con_limg,#city_route a.route_con_limg img{ display:block; width:400px; height:265px;}
+#city_route .route_con_l .route_shadow{ width:100%; height:65px; font-size:12px; color:#fff; background:url(../images/bg.png); line-height:24px; overflow:hidden; position:absolute; left:0; bottom:0;}
+#city_route .route_con_l .route_shadow p{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin:4px 0 0 14px; width:374px; height:24px;}
+#city_route .route_con_l .route_shadow p span{ display:block; float:left; margin-right:10px;}
+#city_route .route_con_l .route_shadow strong{ color:#fc9600; font-size:20px; font-style:italic; padding:0 4px 0 4px;}
+#city_route .route_con_l .rou_fl{ width:68px; height:56px; position:absolute; left:-20px; top:0; font-size:14px; color:#fff; background-color:#0e6eb8; }
+#city_route .route_con_l .rou_fl span{ margin-left:12px; padding-top:14px; display:block;}
+#city_route .route_con_l .rou_fl i{ font-size:24px;}
+/*字体部分*/
+#city_route .route_con_r{ width:436px; margin-right:20px;}
+#city_route .route_con_r h3 a{ display:block; font-size:18px; color:#333; line-height:28px; width:436px; height:56px; overflow:hidden;}
+#city_route .route_con_r h3 a:hover{ color:#fc9600; text-decoration:underline;}
+#city_route .route_con_r p,#city_route .route_con_r .rou_pic{width:436px;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#city_route .route_con_r p{height:20px;margin-top:6px;}
+#city_route .route_con_r p a{font-size:12px; float:left;display:block;color:#999;line-height:20px;}
+#city_route .route_con_r p a.rou_go{ margin-right:20px;}
+#city_route .route_con_r .rou_pic{ position:relative; margin-top:8px;height:22px; border-bottom:1px solid #ccc; padding-bottom:14px;}
+#city_route .route_con_r .rou_pic p{font-size:12px; color:#fc9600;line-height:18px; margin-top:0}
+#city_route .route_con_r .rou_pic strong{ font-size:24px;}
+#city_route .route_con_r .rou_pic a{ display:block; width:74px; height:20px; background-color:#f1f1f1; border-radius:4px 4px 4px 4px; position:absolute; right:0; top:0; color:#999;line-height:20px; padding-left:14px; cursor:pointer;}
+#city_route .route_con_r .rou_pic a.pluse{ color:#f39600; width:72px; height:18px; border:1px solid #f39600; line-height:18px; display:none;}
+#city_route .route_con_r .rou_pic a.delete{color:#fff;background-color:#fc9600;display:none;}
+#city_route .route_con_r .rou_pic a.dui:hover{color:#fff;background-color:#fc9600;}
+/*路线条数*/
+#city_route .route_con_r .rou_rou{ width:436px;margin-top:20px;height:120px;}
+.rou_rou1{left: 280px;top: -80px;background: #fff;}
+.rou_rou_i{width: 14px; height: 12px;background:url(../images/icon_1.png) no-repeat -612px -255px; right: -10px;top: -10px;}
+.rou_rou2{ width:436px; height:16px; line-height:16px; font-size:12px;overflow:hidden; margin-bottom:14px;}
+#city_route .route_con_r .rou_rou div span{display:block; float:left; color:#999; background-color:#eee; padding:0 8px 0 8px; margin-right:14px; border-radius:3px 3px 3px 3px}
+#city_route .route_con_r .rou_rou div a{display:block; float:left; color:#333;width:380px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#city_route .route_con_r a.rou_der{ display:block; width:86px; height:18px; background-color:#f1f1f1; overflow:hidden; margin-bottom:10px;}
+
+/*右侧 本周热卖*/
+#city_route .route_r{ width:276px; height:200px;}
+#city_route .route_r h3{ font-size:18px; color:#333; line-height:34px;}
+#city_route .route_r .route_h_f{ width:276px; height:76px; margin:10px 0 10px 0;}
+#city_route .route_r .route_h_f a,#city_route .route_r .route_h_f a img{ display:block; width:108px; height:76px; float:left;}
+#city_route .route_r .route_h_f .route_h_p p{margin-right:6px;height:40px;}
+#city_route .route_r .route_h_f .route_h_p p a{font-size:14px;width:156px; color:#333; line-height:20px; overflow:hidden;height:40px;}
+#city_route .route_r .route_h_f .route_h_p span.rou_{ display:block; width:156px; margin:12px 6px 0 0; color:#fc9600; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+/*最新活动*/
+#city_route .route_r .rou_active a,#city_route .route_r .rou_active a img{ display:block; width:276px; height:150px;}
+#city_route .route_r .rou_active a{ margin:10px 0 10px 0;}
+/*线路end*/
+/*更多线路*/
+#mo_rute{ width:100%; background-color:#f8f8f8; }
+#mo_rute .mo_ru{ width:1200px; margin:0 auto; border-bottom:1px solid #51a4d3; overflow:hidden;}
+#mo_rute .mo_ru h3{ font-size:22px; color:#333; line-height:22px; margin:40px 0 14px 0;}
+#mo_rute .mo_con{width:1200px; margin:0 auto; padding-bottom:50px}
+#mo_rute .mo_con .mo_f{ width:284px; margin:20px 20px 0 0; float:left;}
+#mo_rute .mo_con .mo_f a,#mo_rute .mo_con .mo_f a img{ display:block; width:285px; height:192px;}
+#mo_rute .mo_con .mo_f p{ font-size:12px; color:#666; line-height:20px; height:40px; overflow:hidden; padding:8px 6px 18px 6px; border-bottom:1px solid #ccc; background-color:#fff;}
+#mo_rute .mo_con .mo_f .mo_money{font-size:12px; background-color:#fff; overflow:hidden;}
+#mo_rute .mo_con .mo_f .mo_money .fl{ color:#fc9600; margin:8px 0 0 8px; width:135px;overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+#mo_rute .mo_con .mo_f .mo_money .fl strong{ font-size:24px;}
+#mo_rute .mo_con .mo_f .mo_money .fr{ width:135px;overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:right;}
+#mo_rute .mo_con .mo_f .mo_money .fr span{ display:inline-block; margin:16px 10px 18px 0; color:#666;}
+#mo_rute .mo_con .mo_f .mo_money .fr i{ display:inline-block; height:8px; margin:0 4px 0 0;}
+#mo_rute .mo_con .mo_f .mo_money .fr i.ic{ width:11px; background:url(../images/image.png) no-repeat -218px -67px;}
+#mo_rute .mo_con .mo_f .mo_money .fr i.ico{ width:9px; background:url(../images/image.png) no-repeat -218px -96px;}
+/*对比栏*/
+#comparison{ width:1200px; margin:30px auto 0 auto; border:3px solid #7cc5f8; height:95px; position:fixed; bottom:0; left:50%; margin-left:-600px; display:none;}
+#comparison .com_l{ width:319px; height:95px; border-right:1px solid #ccc; background-color:#f1faff;}
+#comparison .com_l .com_con{ width:300px; height:83px; margin:5px 0 0 5px; position:relative;}
+#comparison .com_l .com_con a,#comparison .com_l .com_con a img{ display:block; width:125px; height:83px;}
+#comparison .com_l .com_con p{ font-size:14px;  line-height:18px; height:54px; overflow:hidden; position:absolute; right:0; top:0; width:170px;}
+#comparison .com_l .com_con p a{color:#0065bb;width:170px;}
+#comparison .com_l .com_con span.g{ display:block;color:#fc9600; font-size:12px; position:absolute; left:130px; bottom:0; width:98px;}
+#comparison .com_l .com_con span strong{ font-size:18px;}
+#comparison .com_l .com_con .gr{ font-size:12px; color:#bababa; width:70px;position:absolute; right:0; bottom:0; text-align:right;}
+#comparison .com_l .com_con span,#comparison .com_l .com_con font{ overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+#comparison .com_th{width:319px; height:95px; border-right:1px solid #ccc; color:#d9d9d9;background-color:#fff; position:relative;}
+#comparison .com_th span{ display:block; float:left; font-size:54px; line-height:95px; margin-left:34px; }
+#comparison .com_th p{width:160px; font-size:14px; line-height:18px; position:absolute; left:80px; top:30px; height:36px; overflow:hidden;}
+#comparison .com_r{ width:240px; background-color:#f1faff; height:95px; position:relative;}
+#comparison .com_r a{ display:block;}
+#comparison .com_r a.com_r_f{width:140px; height:36px; border-radius:4px 4px 4px 4px; background-color:#39a7ed; position:absolute; left:25px; top:30px; color:#fff; text-align:center; line-height:36px; font-size:18px;}
+#comparison .com_r a.com_r_t{ color:#0065bb; font-size:12px; position:absolute; top:5px; right:9px; cursor:pointer;}
+#comparison .com_r a.com_r_c{ color:#0065bb; font-size:14px; position:absolute; top:44px; right:33px;}
+#comparison .com_l i{ display:block; width:26px; height:26px; background:url(../images/image.png) no-repeat -192px -138px; position:absolute; right:-12px;top:-16px; cursor:pointer; z-index:1;}
+#comparison .com_l i:hover{background:url(../images/image.png) no-repeat -189px -109px;}
+/*对比栏悬浮*/
+.com_float{ width:45px; height:85px; background-color:#78c4fa; text-align:center;  position:fixed; right:0;bottom:0; cursor:pointer; border-radius:4px 4px 4px 4px}
+.com_float span{ display:block; width:20px; margin:0 auto; padding-top:6px;}
+
+
+

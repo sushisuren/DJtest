@@ -1,0 +1,72 @@
+@charset "utf-8";
+@import url('five.css');
+@import url('style.css');
+
+/*banner*/
+#banner{ width:100%; height:400px; position:relative; margin:0}
+#banner ul li.imgli{ width:100%; height:400px; position:absolute; display:none;}
+#banner ul li.imgli a{ display:block; width:100%; height:400px;}
+#banner  .lr_but .prev{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 -80px; position:absolute; left:0; top:50%; margin-top:-35px; cursor:pointer}
+#banner  .lr_but .next{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 0px; position:absolute;  right:0; top:50%; margin-top:-35px;cursor:pointer}
+#banner .op_pos{ position:absolute; width:753px; height:270px; top:100px; left:50%; margin-left:-375px; z-index:111}
+#banner .op_pos .op_pos_l{ width:267px; height:60px; position:absolute; bottom:0px; left:68px;}
+#banner .op_pos .op_pos_l a{ display:block;width:267px; height:60px; color:#fff; font-size:22px; font-weight:bold;
+text-align:center; line-height:60px; }
+#banner .op_pos .op_pos_r{ width:267px; height:60px; position:absolute; bottom:1px; right:68px;}
+#banner .op_pos .op_pos_r a{ display:block;width:267px; height:60px; color:#fff; font-size:22px; font-weight:bold; text-align:center; line-height:60px;}
+/*banner  end*/
+/*精彩瞬间*/
+.pho_splendid{ margin-top: 60px;}
+.pho_splendid_title i{ width: 100px; height: 50px; background: url(../images/icon_huan.png);}
+.photo_spl_f{ width: 300px;height: 386px; }
+.photo_spl_t{width: 300px;height: 193px; }
+.photo_spl_f a.shaow,.photo_spl_t a.shaow{ left: 0;top: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.2);}
+/*精彩瞬间end*/
+/*风景摄影*/
+.pho_spl_control{ border-bottom: 2px solid #ececec;}
+.pho_spl_control ul{ margin: 0 auto; width: 230px; }
+.scenery_li{ width: 590px;height: 258px;}
+.pho_spl_control ul li i{ width: 100%;height: 2px; background: #f39600; left: 0;bottom: -2px;}
+.scenery_li2{width: 285px;height: 258px;}
+.scenery_li3{width: 285px;height: 536px;}
+.shadow3{ height: 40px; width: 100%;left: 0;bottom: 0; line-height: 40px;}
+/*风景摄影end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

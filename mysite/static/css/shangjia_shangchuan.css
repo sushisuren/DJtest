@@ -1,0 +1,36 @@
+@charset "utf-8";
+@import url('five.css');
+/*日志*/
+.ri_zhi{color: #99ccff;}
+.ri_zhi_div{width: 1200px;height: 28px;}
+.ri_zhi_input{width: 1190px;height: 16px;line-height: 16px;}
+.ri_zhi_text{width: 1200px;height: 200px;}
+.ri_zhi_a1{width: 100px;height: 40px;background: #ccc;line-height: 40px;}
+.ri_zhi_a,.ri_zhi_a2{width: 100px;height: 40px;background: #0099cc;line-height: 40px;}
+.ri_zhi_a:hover{background: #99ccff}
+.ri_zhi_li{background: #99ccff;}
+.ri_zhi_li.ri_zhi_li1{background: #0099cc;}
+.ri_zhi_li:hover{background: #0099cc;}
+.ri_zhi_li span{height: 30px;line-height: 30px;}
+.ri_zhi_div1{width: 200px;height: 28px;}
+.ri_zhi_input1{width: 190px;height: 16px;line-height: 16px;}
+.add{ height:46px; background:#f8f8f8; line-height:46px;}
+.add_i{ width:16px; height:14px; background:url(../images/image2.png) no-repeat -256px -85px;}
+.add_div span{ color:#666;}
+.add_div:hover span{ color:#f39600;}
+/*日志 end*/
+/*视频*/
+.ri_zhi_div_v{width: 1090px;height: 28px;}
+.ri_zhi_input_v{width: 1080px;height: 16px;line-height: 16px;}
+.ri_zhi_a_v{width: 100px;height: 28px;background: #0099cc;line-height: 28px;}
+.video_a{width: 150px;height: 110px;}
+.ri_input_div{width: 924px;height: 28px;}
+.ri_input_v{width: 920px;height: 16px;line-height: 16px;}
+.ri_text{width: 920px;height: 64px;resize: none}
+/*视频 end*/
+/*照片*/
+.ri_zhi_a2{margin: 30px auto 0 auto;}
+.ri_input_divq{width: 1200px;height: 28px;}
+.ri_input_vq{width: 1190px;height: 16px;line-height: 16px;}
+.ri_text1{width: 1020px;height: 106px;resize: none}
+.ri_i{width: 12px;height: 12px;background: url("../images/icon_1.png") no-repeat -612px -255px;right: 10px;top: 10px;}

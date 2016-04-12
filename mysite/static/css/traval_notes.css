@@ -1,0 +1,205 @@
+html,body{
+    width: 100%;
+    height:100%;
+    overflow: auto;
+}
+.background2d2{
+    background: #2b2c2d;
+}
+.colorf93{
+    color: #f93;
+}
+.color09c{
+    color: #0099cc;
+}
+.fontweight{
+    font-weight: 600;
+}
+.line45{ line-height: 45px;}
+.line90{ line-height: 90px}
+.font30{font-size: 30px}
+.mr45{
+    margin-right:45px;
+}
+.logo_traval{
+    background: url(../images/white_logo.png);
+    width: 94px;
+    height: 36px;
+    margin-top: 3px;
+    text-indent: -99999px;
+}
+.nav{
+    height:45px;
+    width: 100%;
+}
+.nav li{
+    line-height: 45px;
+}
+.nav li a{
+    display: block;
+    font-size: 16px;
+    color: #ccc;
+    padding:0 10px;
+}
+.nav li a:hover{
+    background: #000;
+}
+.search_traval{
+    width:182px;
+    height: 30px;
+    border-radius:10px;
+    background: #999;
+    margin-top:8px;
+}
+.inp_traval_seach{
+    width: 150px;
+    height: auto;
+    margin-top: 6px;
+    line-height: 14px;
+    margin-left: 3px;
+    background: none;
+    border:none;
+}
+.search_btn{
+   width: 16px;
+    height: 16px;
+    background: red;
+    right: 10px;
+    top: 6px;
+    background: url(../images/seach1.png) no-repeat center;
+}
+.show_slide{
+    top: 0px; height:90px;background: #ccc; width: 100%;
+}
+.yj_width100{
+    width: 100px;
+    height: 45px;
+}
+.bgcc3{ background: #cc3333}
+.bg444{ background: #444}
+.yjsy_icon{
+    background: url(../images/yj_icon.png) no-repeat; width: 17px;
+    height:17px; display: inline-block;
+    top:14px;
+    left:10px;
+}
+.yj_wz{
+    background-position:  -9px -13px;
+}
+.yj_fb{
+    background-position:  -10px -53px;
+}
+
+
+
+.wrapper-scroll { overflow: hidden; position: relative; width: 100%;
+    height:720px;  }
+.wrap-box{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.list1_right_box{
+    width: 600px; height: 400px; margin-top: 150px; margin-right: 100px
+}
+.user_name{width: 300px; height: 62px;}
+.right_box_text{
+    height: 150px; overflow: hidden
+}
+.borderfff{
+    border-top: 1px solid #fff;
+}
+.user_yj{
+    width: auto; height: 27px;
+}
+.user_yj img{
+    border-radius: 100%;
+}
+.line27{
+    line-height: 27px;
+}
+.displayline{
+    display: inline-block;
+}
+.user_gz{
+background: #ff6633;
+    border:1px solid #f63;
+
+}
+.user_sx{
+    border:1px solid #f63;
+
+}
+.height720{
+    height:720px;
+}
+.bgccc{ background: #cccccc}
+.height54{ height: 54px}
+.width350{width: 350px}
+.line54{
+    line-height: 54px;
+}
+.height666{
+    height:666px;
+}
+.box_wz{width:400px; background: #fff; overflow: hidden; text-align: center}
+.dl_wz{
+    margin: 300px auto 0; width: 47px; height: 63px;
+}
+.a_dl_wz{background: url(../images/yj_icon.png) no-repeat -53px -20px; width: 47px; height: 63px}
+.bgfff{ background: #fff}
+.gz_bottom{width: 98px; height: 18px;}
+.bordereee{ border-right:1px solid #eee}
+.pd20{
+    padding:20px;
+}
+
+.width440{
+    width: 440px;
+}
+.height686{
+    height:680px;
+}
+
+.gz_yjfw{
+    background: url(../images/yj_icon.png) no-repeat -26px -82px; width: 12px; height: 12px; margin-top: 2px;
+}
+.gz_yjfw1{
+    background: url(../images/yj_icon.png) no-repeat -31px -57px; width: 12px; height: 12px; margin-top: 2px;
+}
+.width820{ width: 820px}
+.ly_box{ overflow-y: auto; height: 680px; background: #fff;width: 1400px}
+.pl_tit{width: 100%;;height: 50px; background: #f9f9f9}
+.width280{ width: 280px}
+.li_img{width: 100%; height: 30px; line-height:30px;bottom: 27px; overflow: hidden; text-indent: 24px}
+.ly_text{width: 680px; height: 80px;  resize: none; background: none; border: 1px solid #ccc}
+.submit_ly{width: 96px; height: 86px; background: #f9f9f9; line-height: 86px;}
+.colorcc00{ color: #cc0000}
+.yl_gz{
+    padding:0 10px;
+    background: #fff;
+    border:1px solid #f90;
+    color:#f90;
+}
+.width1354{ width: 1354px}
+.width1200{width: 1200px}
+.line50{ line-height: 50px}
+.con_text_ly{width: 100%; height: 50px; background: #fff; overflow: hidden}
+.shadow_notes{width: 100%;height: 70px;left: 0;bottom: 0;}
+.shadow_i1 i{width: 12px; height: 12px;background: url("../images/image2.png") no-repeat -110px -210px; margin-top: 2px;}
+.shadow_i2 i{width: 18px; height: 12px;background: url("../images/image2.png") no-repeat -107px -192px; margin-top: 2px;}
+.shadow_i3 i{width: 14px; height: 12px;background: url("../images/image2.png") no-repeat -109px -172px; margin-top: 4px;}
+.btn_goway{width: 100px; height: 30px; background: #444;bottom: 0;right: 20px;}
+.foot_box{width: 100%; height: 50px;}
+.cpf_box{background: #cc3333; width: 24px; height: 24px; line-height: 24px; margin-top: 12px}
+.num_sc{width: 60px; height: 24px; background: #444; margin-top: 12px; margin-left: 2px; line-height: 24px; cursor: pointer;}
+.jt_num{top: 10px;right: 8px;;width:10px; height: 5px; background: url(../images/image2.png) no-repeat -6px -147px}
+.line30{ line-height: 30px;}
+.box_foot{
+    width: 100%; background: #282828;
+    line-height: auto;
+}
+
+
+
+

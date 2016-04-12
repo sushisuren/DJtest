@@ -1,0 +1,368 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.background2d2 {
+    background: #2b2c2d;
+}
+
+.colorf93 {
+    color: #f93;
+}
+
+.color09c {
+    color: #0099cc;
+}
+
+.fontweight {
+    font-weight: 600;
+}
+
+.line45 {
+    line-height: 45px;
+}
+
+.line90 {
+    line-height: 90px
+}
+
+.font30 {
+    font-size: 30px
+}
+
+.mr45 {
+    margin-right: 45px;
+}
+
+/* 头部开始*/
+.logo_traval {
+    background: url(../images/white_logo.png);
+    width: 94px;
+    height: 36px;
+    margin-top: 3px;
+    text-indent: -99999px;
+}
+
+.nav {
+    height: 45px;
+    width: 100%;
+}
+
+.nav li {
+    line-height: 45px;
+}
+
+.nav li a {
+    display: block;
+    font-size: 16px;
+    color: #ccc;
+    padding: 0 10px;
+}
+
+.nav li a:hover {
+    background: #000;
+}
+
+.search_traval {
+    width: 182px;
+    height: 30px;
+    border-radius: 10px;
+    background: #999;
+    margin-top: 8px;
+}
+
+.inp_traval_seach {
+    width: 150px;
+    height: auto;
+    margin-top: 6px;
+    line-height: 14px;
+    margin-left: 3px;
+    background: none;
+    border: none;
+}
+
+.search_btn {
+    width: 16px;
+    height: 16px;
+    background: red;
+    right: 10px;
+    top: 6px;
+    background: url(../images/seach1.png) no-repeat center;
+}
+
+.show_slide {
+    top: 0px;
+    height: 90px;
+    background: #ccc;
+    width: 100%;
+}
+
+.yj_width100 {
+    width: 100px;
+    height: 45px;
+}
+
+.bgcc3 {
+    background: #cc3333
+}
+
+.bg444 {
+    background: #444
+}
+
+.yjsy_icon {
+    background: url(../images/yj_icon.png) no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    top: 14px;
+    left: 10px;
+}
+
+.yj_wz {
+    background-position: -9px -13px;
+}
+
+.yj_fb {
+    background-position: -10px -53px;
+}
+
+/* 头部结束*/
+
+.bgccc {
+    background: #ccc
+}
+
+.set_fm_box {
+    width: 465px;
+    margin: 0 auto;
+    height: 65px
+}
+
+.set_fm {
+    width: 65px;
+    height: 65px;
+    background: url(../images/release_notes.png) no-repeat 0 0
+}
+
+.width400 {
+    width: 400px;
+}
+
+.line34 {
+    line-height: 34px;
+}
+
+.line16 {
+    line-height: 32px;
+}
+
+.pd20 {
+    padding: 20px;
+}
+
+.pd5 {
+    padding: 5px;
+}
+
+.first_box {
+    width: 100%;
+    height: 715px;
+}
+
+.box_inp_release {
+    width: 985px;
+    margin: 100px auto 0;
+    overflow: hidden
+}
+
+.wirte_notes {
+    width: 100%;
+    height: 60px;
+    border: none;
+    text-indent: 24px
+}
+
+.write_gw {
+    width: 96%;
+    height: 180px;
+    overflow: hidden;
+    resize: none;
+    padding: 20px;
+    border: none;
+}
+
+.reader_box {
+    width: 100%;
+    height: 60px;
+    background: #fff
+}
+
+.fwz_release {
+    right: 20px;
+    top: 10px;
+}
+
+.read {
+    width: 92px;
+    height: 38px;
+    line-height: 38px
+}
+
+.text_music {
+    width: 87%;
+    height: 60px;
+    border: none;
+    text-indent: 24px;
+}
+
+.width430 {
+    width: 430px
+}
+
+.height675 {
+    height: 675px;
+}
+
+.wz_search {
+    width: 48px;
+    height: 63px;
+   background: url("../images/iconfont-weizhi%20.png") no-repeat;
+
+}
+
+.wz_inp_text {
+    width: 97%;
+    height: 50px;
+    background: #fff;
+    border: none;
+
+    border: 1px solid #ccc;
+    padding-left: 32px;
+}
+
+.text_center {
+    height: 105px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.write_tit {
+    left: 44%;
+    top: 35%;
+}
+
+.box_img_conten {
+    width: 1220px;
+    height: 615px;
+}
+
+.add_con {
+    width: 100%;
+    height: 615px;
+
+}
+
+.wz_left {
+    width: 300px;
+    overflow: hidden;
+    border-right: 1px solid #eee;
+}
+
+.wz_middle {
+    height: 100px;
+}
+
+.second_box {
+    width: 450px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.text_img_big {
+    width: 730px;
+    height: 543px;
+    background: #ccc;
+    overflow: hidden
+}
+
+.textarea_text {
+    width: 99%;;
+    height: 90%;
+    border: none;
+    resize: none;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.write_icon_read {
+    width: 37px;
+    height: 37px;
+    background: url(../images/yj_icon.png) no-repeat -162px -32px;
+}
+
+.list_img_read {
+    height: 262px;
+    width: 448px;
+    background: #ccc;
+    overflow: hidden;
+}
+
+.center_update {
+    margin: 0 auto;
+}
+
+.mt250 {
+    margin-top: 250px;
+}
+
+.mt110 {
+    margin-top: 110px
+}
+
+.way_botlet {
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
+    left: 0;
+}
+.text_con_img {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    border: none;
+    background: #666;
+    text-indent: 24px
+}
+
+.add_box {
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    overflow: hidden
+}
+
+.add_icon {
+    width: 74px;
+    height: 74px;
+    background: url(../images/yj_icon.png) no-repeat -213px -12px;
+    right: 50px;
+    top: 50%;
+}
+.left50{
+    left:50%;
+    top:0;
+    margin-left: -27px;
+}
+
+.box_foot {
+    width: 100%;
+    background: #282828;
+    height: 45px;
+}
+
+.line45 {
+    line-height: 45px;
+}

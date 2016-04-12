@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('header.css');
+input{border:none;}
+img{ display:block;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+.main{width:100%;}
+/*nav*/
+
+/*标题*/
+#com_con{ width:1200px; margin:0 auto;}
+#com_title{ height:65px;margin:15px 0 0 0;}
+#com_title a{ color:#666; line-height:18px;}
+#com_title a.com_rou{ color:#fc9600;}
+/*对比产品*/
+#bloke .fixed{ position:fixed; top:0; z-index:200;-moz-box-shadow: 3px 3px 4px #ccc;-webkit-box-shadow: 3px 3px 4px #ccc;box-shadow: 3px 3px 4px #ccc;}
+#bloke{width:1198px;border-right:1px solid #e4e4e4;border-left:1px solid #e4e4e4;}
+#com_pro{ width:1198px; border-top:3px solid #7cc5f8;background-color:#f1faff; border-bottom:1px solid #eee;}
+#com_pro .com_product{ width:140px; height:134px;line-height:28px; color:#333; text-align:center;}
+#com_pro .com_product h3{ margin-top:54px; font-weight:bold;}
+#com_pro .com_pro_r{ width:1058px; height:134px;}
+#com_pro .com_pro_r .com_pro_f{ border-right:1px solid #e4e4e4; width:350px; height:134px; position:relative;}
+#com_pro .com_pro_r .com_pro_f a.a_img{ position:absolute; left:15px; top:20px;}
+#com_pro .com_pro_r .com_pro_f a.a_img,#com_pro .com_pro_r .com_pro_f a.a_img img{ width:142px; height:94px;}
+#com_pro .com_pro_r .com_pro_f p{width:170px;height:54px;overflow:hidden; position:absolute; left:162px; top:20px;}
+#com_pro .com_pro_r .com_pro_f p a{color:#0065bb;line-height:18px;}
+#com_pro .com_pro_r .com_pro_f p a:hover{ text-decoration:underline;}
+#com_pro .com_pro_r .com_pro_f a.a_botton{ width:102px; height:34px; border-radius:4px 4px 4px 4px; background-color:#3da3e8; position:absolute; left:162px; top:78px; color:#fff; text-align:center; line-height:34px;}
+/*对比内容*/
+#com_conent,#com_conent .com_base{width:1198px;}
+#com_conent .com_base{ position:relative; border-top:1px solid #eee;}
+#com_conent .com_base .base{ width:140px;color:#333; background-color:#fcfcfc; overflow:hidden; margin-top:-2px;}
+#com_conent .com_base .base h3{ height:38px; width:120px;line-height:38px;border-top:3px solid #7cc5f8; padding-left:20px; font-weight:bold;}
+#com_conent .com_base i{ display:block; width:41px; height:41px; position:absolute; top:0; right:-20px; cursor:pointer}
+#com_conent .com_base i.open{background:url(../images/image.png) no-repeat -249px -82px;}
+#com_conent .com_base i.open:hover{background:url(../images/image.png) no-repeat -249px -32px;}
+#com_conent .com_base i.close{background:url(../images/image.png) no-repeat -249px -135px; display:none;}
+#com_conent .com_base i.close:hover{background:url(../images/image.png) no-repeat -249px -184px}
+#com_conent .com_base .base_hide{ padding-bottom:10px;}
+#com_conent .com_base .base_hide table{border-collapse: collapse;display: table;border-spacing: 2px;border-color: gray;}
+tbody {display: table-row-group;vertical-align: middle;}
+tr {display: table-row;}
+#com_conent .com_base .base_hide .base_h_tb{table-layout: fixed;color: #666;}
+#com_conent .base_hide .base_h_tb th {width:118px;padding: 5px 0 5px 22px; font-size:14px;text-align: left;font-weight: bold;vertical-align: top;background: #FCFCFC;border-bottom: 1px solid #EEE;line-height: 38px;}
+#com_conent .base_hide .base_h_tb td { font-size:12px;padding: 5px 15px;vertical-align: top;border-bottom: 1px solid #EEE;border-right: 1px solid #EEE;line-height:38px;width: 320px;}
+#com_conent .base_hide .base_h_tb td .city_jinan{display: block;cursor: pointer;padding: 0 10px;height: 38px;line-height: 38px;}
+#price span{ display:block;}
+#price .base_price{ margin-left:-10px; color:#fc9600;}
+#price .base_price strong,#price .day_price strong{ font-size:20px;}
+#price .base_txtdiv{ margin-left:10px; cursor:pointer; text-decoration:underline; position:relative;}
+#price .base_txtdiv .fl_pri{ width:300px; border:1px solid #666; color:#666; position:absolute; background-color:#fff; z-index:100; left:60px; top:-150px; display:none;}
+#price .base_txtdiv .fl_pri p{text-indent:10px; line-height:28px;}
+#ping a.fen{ color:#1063ea;}
+#ping a.fen strong{ font-size:20px;}
+#ping a.ling{ color:#999; text-decoration:underline;}
+#price .day_price{ color:#fc9600;}
+#price .day_j{ margin:4px 0 0 10px;}
+.product_city a.hotel{ color:#1063ea; margin-left:10px;}
+.product_city a:hover{ text-decoration:underline;}
+.product_city span.jing{ display:block; float:left;margin:0 5px 0 10px;}
+.product_city span.jing a{color:#1063ea;}
+.base_r{overflow:hidden;}
+.base_r .light{ width:122px; height:26px; border-radius:4px 4px 4px 4px; background-color:#7cc5f8; overflow:hidden;margin:10px 0 0 22px;}
+.base_r .light span{ display:block; color:#fff; font-size:12px; line-height:18px; margin:4px 0 0 18px;}
+
+

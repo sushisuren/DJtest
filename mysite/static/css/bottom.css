@@ -1,0 +1,21 @@
+/*政策优惠*/
+.diyong{ background: #fff;width: 100%;}
+.quan{ width: 12px; height: 12px; background: #fff; border-radius: 8px; border:2px solid #0099CC;}
+.lin26{ line-height: 26px;}
+.color960{color:#960;}
+.pl35{ padding-left: 35px;}
+.kongbai{width: 100%; height: 100px;}
+.fon38{ font-size: 38px;}
+.bj{ width: 1200px; height: 500px; background: #4eadf2;}
+.pr30{ padding-right: 30px;}
+.service_li{ font-size: 16px; color: #feaa23; text-decoration: underline; cursor: pointer; line-height: 50px;}
+.current{ font-size: 30px; color: #666; line-height: 50px; text-decoration: none;}
+.service_li:hover{text-decoration: none; color: #f39600;}
+.wid520{ width: 520px;}
+.wid170{ width: 170px;}
+.trigon{ background: url("../images/zhaopin.png") no-repeat -19px -27px; width: 10px; height: 10px; top:5px; right: -20px;}
+.trigon_xl{ background: url("../images/zhaopin.png") no-repeat -19px -47px; width: 10px; height: 10px; top:5px; right: -20px;}
+.colored{color: #d0122b;}
+.hot{ background: url("../images/zhaopin.png") no-repeat -19px -8px; width: 10px; height: 14px; top:4px; left: -12px;}
+.ml50{ margin-left: 50px;}
+.cur{cursor: pointer;}

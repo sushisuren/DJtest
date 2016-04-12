@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('header.css');
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+.main{width:100%;}
+
+
+/*banner*/
+.bannerbox,.bigimg,.bigimg li,.bigimg li a{
+    width:100%;
+    height:400px;
+}
+.bigimg li{
+    display: none;
+}
+.bigimg li a{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+.smallimg{
+    right:20px;
+    top:20px;
+}
+.smallimg li{
+    width:110px;
+    height:62px;
+    margin-top: 5px;
+    border:2px solid transparent;
+    cursor: pointer;
+}
+
+.smallimg li.active_bann{
+    border:2px solid #f39600;
+}
+
+
+/*内容end*/
+/*热门推荐*/
+.sunday_bg{width: 100%;background: #f8f8f8;}
+.sunday_bg .sunday{border-bottom: 3px solid #ccc;}
+.cont_tit{height: 40px;}
+.cont_tit h3{ line-height: 30px;}
+.limit_tit .icon_huan{display: block; width: 100px; height: 40px; background:url(../images/icon_huan.png)  no-repeat  10px -10px; right: 0;
+    top: 40px;}
+/*风景摄影*/
+.scenery_li2{width: 285px;height: 258px;}
+.scenery_li3{width: 285px;height: 536px;}
+.shadow3{ height: 40px; width: 100%;left: 0;bottom: 0; line-height: 40px;}
+/*风景摄影end*/
+/*伴游人追捧*/
+.inland_t{border-bottom: 3px solid #ccc;}
+.inland .inland_t .char_ul span.block{display: block;}
+.inland .inland_t .char_ul span{ height:3px; width:100%; bottom:-3px; left:0; display: none; background: #ff6766;}
+.inland .inland_t .char_ul{ line-height:30px;overflow:hidden; text-overflow:ellipsis; white-space:nowrap; height:33px; margin-bottom:-3px;}
+.sunday_con .char_f{ width:1200px;}
+.char_dl_1{height: 266px; background:#f0f0f0;}
+.char_dl_1 dt{ width:285px; height:182px}
+.char_dl_1 dd{ line-height: 22px;width:285px;}
+.char_dl_1 dd p span{color:#ff5f63;}
+.char_dl_1 dd a{ line-height:28px;overflow:hidden;}
+.char_dl_1 dd p,.char_dl_1 dd .ping_lun{width:265px; line-height:28px; height:56px;overflow:hidden;}
+.over_qj_pub{ height: 36px;overflow: hidden;  line-height: 36px;}
+.over_qj99_two{ left: 72px; bottom: 0; background-color: #ff6666; display: block; width: 93px;}
+.over_qj666 {  width: 72px;  bottom: 0; left: 0;}
+.more{padding-top: 25px;}
+/*伴游人追捧end*/
+/*我的结伴*/
+.maypanying_list ul {  height: 30px;  }
+.maypanying_list li {  float: left;  position: relative;  height: 30px;  line-height: 30px;  color: #b477db;  border: 3px solid #fff;  cursor: pointer;  margin: 0;  }
+.maypanying_list span {  padding: 0 36px 0 36px;  }
+.maypanying_list .mycuure {  border: 3px solid #b477db;  }
+.maypanying_list i {  width: 13px;  height: 8px;  background: url(../images/image.png) no-repeat -93px -157px;  position: absolute;  left: 50%;  margin-left: -6px;  bottom: -11px;  }
+.maypanying_list .mycuure2 {  background-position: -119px -25px;  }
+.maypanying_searchr {  height: 36px;  }
+.pany_searchr {width: 400px;}
+.hotel_search_text {font-size: 14px;  display: block;  float: left;  color: #a9a9a9;  line-height: 24px;  height: 24px;background-color:#f8f8f8; }
+.pany_searchr3 {  width: 200px;  margin: 0 43px 0 0;  display: inline-block;  height: 34px;  background-color:#f8f8f8;  position: relative;  }
+.pany_searchr3 span {  float: left;  display: block;  }
+.pany_searchr3 i {  width: 16px;  height: 16px;  display: block;  float: right;  background: url(../images/image.png) no-repeat -118px -47px;  position: absolute;  top: 10px;  right: 10px  }
+.psc{width: 100px;height: 34px;background: #f8f8f8;}
+.pany_searchr1 {  width: 90px;margin: 8px;background: #f8f8f8;}
+.pany_publish a {  display: block;  width: 250px;  background-color: #b477db;  }
+.pany_publish img, .pany_publish span {  display: inline-block;  line-height: 36px;  margin-left: 20px;  }
+.pany_publish span {  color: #fff;  font-size: 20px;  }
+.mypanying_title, .mypanying_header, .maypanying_content dd, .maypanying_content dt {  margin-top: 10px;  width: 190px;  margin-left: 10px;  }
+.mypanying_header {  overflow: hidden;  }
+.mypanying_title a {  font-size: 14px;  color: #333;  width: 190px;  display: block;  overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;  }
+.mypanying_title a:hover {  text-decoration: underline;  color: #b477db;  }
+.maypanying_content dl {  float: left;  }
+.mypanying1 dl {  border: 1px solid #ccc;  margin-right: 34px;  }
+.mypanying1 dl .text {  height: 48px;  overflow: hidden;  }
+.mypanying1 dl .text p, .maypanying_content dt {  line-height: 16px;  font-size: 12px;  color: #7a7a7a;  }
+.mypanying_header a {  color: #d10000;  float: left;  display: block;  }
+.mypanying_header img {  height: 30px;  width: 30px;  }
+.mypanying_header .h {  float: left;  margin-left: 12px;  }
+.mypanying_header .h span, .mypanying_header .h a {  display: block;  width: 140px;  clear: both;  font-size: 12px;  line-height: 14px;  color: #d10000;  overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;  }
+.maypanying_content dt {  margin-top: 10px;  height: 28px;  overflow: hidden;  line-height: 28px;  white-space: nowrap;  text-overflow: ellipsis;  }
+.maypanying_content dt i {  font-size: 14px;  padding: 0 5px 0 5px;  color: #7a7a7a;  }
+/*城市*/
+.city_search{left:0; top:32px; z-index:10;width:398px; background:#fff;}
+.city_search .city_sea .search_city_hot a,.city_down_list dd a,.com_results dl a{ display:inline-block; margin-right:8px; line-height:22px}
+.city_down_list dt{ width:40px;}
+.city_down_list dd{ width:320px;}
+.city_search a:hover{ text-decoration:underline}
+/*攻略*/
+.mo_con{width:915px; }
+.mo_con .mo_f{ width:283px; }
+.mo_con .mo_f a.mo_f_a,.mo_con .mo_f a.mo_f_a img{ display:block; width:283px; height:192px;}
+.mo_con .mo_f p.mo_f_a_p{ font-size:12px; color:#666; line-height:20px; height:40px; overflow:hidden; padding:5px 6px 5px 6px; border-bottom:1px solid #ccc; background-color:#fff;}
+.essential_a{width: 20px; height: 20px; border-radius: 50%;overflow: hidden;}
+.zhi_zi{ width:80px;display: block; white-space: nowrap;overflow: hidden}
+.shadow_i1 i{width: 12px; height: 12px;background: url("../images/image2.png") no-repeat -110px -210px; margin-top: 2px;}
+.shadow_i2 i{width: 18px; height: 12px;background: url("../images/image2.png") no-repeat -107px -192px; margin-top: 2px;}
+.shadow_i3 i{width: 14px; height: 12px;background: url("../images/image2.png") no-repeat -109px -172px; margin-top: 4px;}
+.essence{width: 45px;height: 45px;background: url("../images/image2.png") no-repeat -129px -180px;top:0;left: 0;}
+
+/*攻略 right*/
+.strategy_r{width: 283px;}
+.cen_img{width: 263px;height: 136px;}
+.cen_img_sha{ width:100%; bottom:0; background-image:url('../images/bg.png'); height:30px; line-height:30px; text-indent:10px;}
+.related_dl dt a{ width:88px; height:58px;}
+.related_dd a{ width:162px; line-height:18px; height:36px; overflow:hidden; color:#666;}
+
+.related_dl:hover{background: #f8f8f8;}
+.related_dl:hover a{color:#f39600;}
+/*攻略end*/

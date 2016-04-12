@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('header.css');
+/*left nav*/
+.order_cen_l{ width:188px;}
+.cen_ul{ border:1px solid #eeeeee; background:#fafafa;}
+.li_a{ height:60px; background:#99ccff; line-height:60px;}
+.cen_li_a{ width:100%; height:40px;}
+.cen_li_a:hover .span_a1{ color:#9CF !important;}
+.cen_li_i{ background:url('../images/icon_1.png') no-repeat; width:17px; height:17px; top:20px; left:20px;}
+.cen_li_i1{ background-position:-424px -52px;}
+.cen_li_i_2{ background-position:-447px -52px;}
+.cen_li_i3{ background-position:-472px -50px;}
+.cen_li_i4{ background-position:-499px -51px;}
+.cen_li_i5{ background-position:-525px -52px;}
+.cen_li_i6{ background-position:-546px -52px;}
+.cen_li_i7{ background-position:-550px -83px;}
+.span_a1{ margin-left:50px;}
+.cen_li_i2{ background:url('../images/icon_1.png') no-repeat -501px -123px; width:7px; height:7px; top:25px; right:25px;}
+.cen_li_i2_2{ background-position:-480px -122px;}
+.pull_li{ width:188px; height:36px; line-height:36px;}
+.currenta{ background:#99ccff; color:#fff !important;}
+.pull_a{ padding-left:44px;}
+.pull_a:hover{background:#99ccff; color:#fff !important;}
+/*right*/
+.order_cen_r{ padding-bottom:50px;}
+order_cen_r,.cen_rm{ width:980px;}
+.cen_t_t{ width:978px; border:1px solid #adcfee;}
+.cen_tt{ height:80px; border-bottom:1px solid #adcfee; background:#f0f8ff;}
+.img_a{ top:10px; left:12px;}
+.fanS{ font-family:'SimSun';}
+.tt_a{top:10px; left:90px;}
+.vip{ color:#fb520a; top:50px; left:90px; line-height:16px; padding-left:25px;}
+.vip_i{ background:url('../images/icon_1.png') no-repeat -518px -87px; top:0px; left:0px; width:16px; height:16px;}
+.zuji{ color:#7da3c5; top:0px; right:50px; line-height:18px; top:30px; right:170px;}
+.zuji_i{ background:url('../images/icon_1.png') no-repeat -462px -84px; width:15px; height:17px; top:1px; right:0px;}
+.cart{ color:#7da3c5; top:0px; right:50px; line-height:18px; top:30px; right:35px;}
+.cart_i{ background:url('../images/icon_1.png') no-repeat -485px -85px; width:18px; height:17px; top:3px; right:0px;}
+.nows_span{ color:#ff3300;}
+.nows ul li{ line-height:70px;}
+.rm_ul li{ cursor:pointer;}
+.rm_li{ height:22px; line-height:22px; border-left:4px solid #99ccff;}
+input[type="radio"] {
+	position: relative;
+	top: 1px;
+}
+/*标题*/
+.coupon_li1{ width:226px; height:40px;}
+.cen_quan{ width:190px; height:24px; line-height:24px;}
+.cen_quan_a{ width:110px; height:28px; background:#f39600; line-height:28px;}
+/*优惠内容*/
+.youhui{width: 978px;}
+.coupon_tr,.coupon_bg{ width: 978px; height: 48px; line-height: 48px; background: #fafafa;}
+.coupon_tr2{ width: 978px;  border: 1px solid #ccc; border-top: none;}
+.coupon_tr2 td{vertical-align: middle; }
+.coupon_th1{ width: 260px; }
+.coupon_th2{ width: 170px;}
+.coupon_th3{ width: 150px;}
+.coupon_th4{ width: 240px;}
+.coupon_th5{ width: 140px;}
+.coupon_d{ width: 210px;height: 100px;background: #99ccff;}
+.minit{ border-top: 2px solid #fff;}
+.minit p{line-height: 18px;}
+.cou_span{ font-size: 50px;}
+.coupon_batt_san{width: 70px;height: 28px;line-height: 28px;}
+.coupon_ul li{ border-right: 1px solid #ccc; height: 28px;line-height: 28px;width: 30px;}
+.coupon_ul li:hover{ background: #99ccff; color: #fff;}
+.coupon_batton{ margin-left:300px;}
+li.lan{background: #99ccff; color: #fff;}
+/*红包*/
+.coupo_bao{width: 210px;height: 172px;background: #ff6666; padding-top: 30px;}
+.zi_bao{ font-size: 30px;}
+.coup_p{ margin-top: -15px;}
+.conpon_bg{ background: #ccc;}
+
+
+/*我的收藏*/
+.color_blue{color: #008fd7 !important;}
+.border_bot{border-bottom:2px solid #ccc; width: 980px}
+.li_span{ padding: 0px 20px;}
+.current{ border-bottom: 2px solid #008fd7;color: #008fd7 !important; padding-bottom: 10px;}
+.collect_cen{margin-top: 110px;}
+.span_img{ width: 85px; height: 85px; margin: 0 auto;display: block;}
+.r_top_li{cursor: pointer;}
+.chan_pin{width: 960px;}
+.all{width: 80px;}
+.dele{ width: 100px;}
+.xinxi{ width: 450px;}
+.xinxi_a{ width: 420px; overflow: hidden;}
+.wid_p{width: 400px; overflow: hidden;}
+.price{ width: 160px;}
+.lin34{ line-height: 34px;}
+.bor_bot{border-bottom: 1px solid #ddd;}
+.delet{width:160px;}
+.delet img{width: 100%;}
+.do{width: 170px;}
+.lin106{ line-height: 106px;}
+.check:hover,.delete:hover,.tit:hover{ color: #f39600 !important}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import url('five.css');
+h4,h3{font-weight: normal}
+/*banner*/
+/*banner*/
+#banner{ width:100%; height:400px; position:relative; margin:0}
+#banner ul li.imgli{ width:100%; height:400px; position:absolute; display:none;}
+#banner ul li.imgli a{ display:block; width:100%; height:400px;}
+#banner  .lr_but .prev{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 -80px; position:absolute; left:0; top:50%; margin-top:-35px; cursor:pointer}
+#banner  .lr_but .next{ width:70px; height:70px; background:url(../images/ad_ctr.png) no-repeat 0 0px; position:absolute;  right:0; top:50%; margin-top:-35px;cursor:pointer}
+
+/*banner  end*/
+/*精彩推荐*/
+.pho_splendid_title a{ width: 100px; height: 50px; background: url(../images/icon_huan.png) no-repeat;}
+.shadow3{ height: 40px; width: 100%;left: 0;bottom: 0; line-height: 40px;}
+.scenery_x,.scenery_y,.scenery_z{white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.scenery_x{width: 440px;}
+.scenery_y{width: 120px;}
+.scenery_z{width: 264px;}
+/**/
+.dance_con{width: 895px;}
+.dance_new{border-bottom: 1px solid #ccc;}
+.dance_new a:hover{text-decoration: underline;}
+.dance_new_name{color: #6699cc;}
+.consult{border-top:1px solid #ccc;}
+/*资讯*/
+.essential_bg:hover{background: #f8f8f8;}
+.essential_bg:hover h4{color: #f39600;}
+.essential_f_a{width:218px;height: 150px;}
+.essential_f_r{width: 590px;}
+.essential_f_r1{width: 845px;}
+.essential_f_r h4{color: #333;}
+.essential_a{width: 20px; height: 20px; border-radius: 50%;overflow: hidden;}
+.essential_r_p{line-height: 20px;height:60px;overflow: hidden;}
+
+.essence{width: 45px;height: 45px;background: url("../images/image2.png") no-repeat -129px -180px;top:0;left: 0;}
+.essential_a_i i{width: 18px; height: 12px;background: url("../images/image2.png") no-repeat -107px -192px; margin-top: 2px;}
+.essential_a_i2 i{width: 14px; height: 12px;background: url("../images/image2.png") no-repeat -109px -172px; margin-top: 4px;}
+/*夹在更多*/
+.down_lo{width: 855px; height: 58px;background: #cce5ff;}
+.down_lo span{color: #336699;line-height: 58px;}
+/*right*/
+.establish_r{width: 285px;}
+.my_establish,.establish_p{ border-bottom: 1px solid #ccc;}
+.my_con p i{width: 10px;height: 10px; background: url("../images/icon_1.png") no-repeat -496px -245px;right: 0;top:20px;}
+.mid_p a{color: #0099cc;}
+/*活动*/
+.banner_right{width: 285px; background: #F8F8F8;}
+.banner_r_ul li{width: 60px; height: 32px; color: #666;line-height: 32px;}
+.banner_r_ul li.l_bg{background: #0099cc; color: #fff;}
+.sha_de{background: url("../images/bg.png");width: 100%; height: 28px; bottom:0px;}
+.lin28{ line-height: 28px;}
+.blue{background: #0099cc;}
+.colorblue{color:#0099cc;}
+.gray{background: #eeeeee;}
+.span2{ width: 255px; height: 28px;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
+.span1{ width: 30px; height: 28px;}
+.span3{width: 235px;height: 28px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
