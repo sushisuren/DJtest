@@ -1,6 +1,9 @@
-<link href="../static/css/reset.css" rel="stylesheet" type="text/css">
-<link href="../static/css/header.css" rel="stylesheet" type="text/css">
-<link href="../static/css/bottom.css" rel="stylesheet" type="text/css">
+{% load staticfiles %}
+{{ name }}
+<!--<link href="../static/css/reset.css" rel="stylesheet" type="text/css">-->
+<link href="{% static 'css/restet.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/header.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/bottom.css' %}" rel="stylesheet" type="text/css">
 <!--diyong begin-->
 <div class="diyong clearfix">
     <div class="neirong container">
@@ -106,6 +109,8 @@
         </ul>
     </div>
 </div>
-<script type="text/javascript" src="../static/js/jquery.js"></script>
-<script type="text/javascript" src="../static/js/header.js"></script>
-<script type="text/javascript" src="../static/js/laydate.dev.js"></script>
+<hr>
+<img src="{% static 'img1.jpg' %}">
+<script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/header.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/laydate.dev.js' %}"></script>
