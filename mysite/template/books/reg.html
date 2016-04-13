@@ -5,7 +5,7 @@
     <title>作者</title>
 </head>
 <body>
-<form method="post" action="/reg/">
+<form method="post" action="">
 {% csrf_token %}
     <p><label>firstName</label><input name="first_name" ></p>
     <p><label>lastName</label><input name="last_name" ></p>
@@ -13,6 +13,8 @@
     <input type="submit" value="提交">
     {% if data %}
        <p>{{ data }}</p>
+    <hr>
+    {{ data.email }}
     {% endif %}
 </form>
 </body>

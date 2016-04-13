@@ -22,7 +22,8 @@ def reg(request):
     #     return render_to_response('books/reg.html')
     if request.method == 'POST':
         data = request.POST
-        print data
-    return render_to_response("reg.html",locals(),context_instance=RequestContext(request))
+        print data.getlist('email')
+        #print data.get('email'),data.get('last_name')#['lastName']
+    return render_to_response("books/reg.html",locals(),context_instance=RequestContext(request))
         #return HttpResponse("haha")
 
