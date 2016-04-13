@@ -1,0 +1,29 @@
+
+{{ error }}
+	    <html>
+	    <head lang="en">
+	        <meta charset="UTF-8">
+	        <title></title>
+	    </head>
+	    <body>
+	        <form action="/reg/" method="POST" target="_self" id="reviseInfo">
+                    {% csrf_token %}
+	            <input type="hidden" name="username" value=$:user.get('username') />
+	            <p>姓名:<input type="text" name="name" value=$:user.get('name') /></p>
+	            <p>性别:<input type="text" name="sex" value=$:user.get('sex') /></p>
+	            <p>生日:<input type="text" name="birthday" value=$:user.get('birthday') /></p>
+	            <p>住址:<input type="text" name="dress" value=$:user.get('dress') /></p>
+	            <p>爱好:<input type="text" name="hobby" value=$:user.get('hobby') /></p>
+	            <p>个人介绍:<input type="text" name="introduc" value=$:user.get('introduc') /></p>
+	            <p>头像:<input type="text" name="head" /></p>
+	            <p>照片:<input type="text" name="photo" /></p>
+	            <input type="submit" value="提交">
+	        </form>
+	    </body>
+	    </html>
+<img border="0" src="#" style="width:120px;height:120px;border:0" ></p>
+    {% if data %}
+       <p>{{ data }}</p>
+    {% endif %}
+</body>
+</html>

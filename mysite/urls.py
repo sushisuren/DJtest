@@ -1,8 +1,8 @@
 from django.conf.urls import patterns, include, url
-import settings
 from django.contrib import admin
 from views import hello,hours_ahead,temp,temp2,temp3
 from test import test
+from books.views import reg
 
 urlpatterns = patterns('',
     # Examples:
@@ -15,7 +15,8 @@ urlpatterns = patterns('',
     url(r'^temp2/$',temp2),
     url(r'^temp3/$',temp3),
     url(r'^test/$',test),
-    url( r'^static/(?P<path>.*)$', 'django.views.static.serve',{ 'document_root': settings.STATIC_ROOT }),
+    url(r'^reg/$',reg),
+    #url( r'^static/(?P<path>.*)$', 'django.views.static.serve',{ 'document_root': settings.STATIC_ROOT }),
     url(r'^admin/', include(admin.site.urls)),
 )
 
