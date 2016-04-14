@@ -7,9 +7,13 @@
 <body>
 <form method="post" action="" >
 {% csrf_token %}
-    <p><label>用户名</label><input name="uname" placeholder="用户名"></p>
-    <p><label>密码</label><input name="passwd"  type="password" placeholder="password"></p>
-    <p><label>重复密码</label><input name="passwd2"  type="password" placeholder="password"></p>
+    <p><label>姓名</label><input name="name" placeholder="姓名"></p>
+    <p><label>Email</label><input name="email" placeholder="Email"></p>
+    <p>
+        <input id="sex" type="radio" name="sex"  value=1> 男
+        <input id="sex" type="radio" name="sex"  value=0> 女
+    </p>
+
     <input type="submit" value="提交">
 
 </form>
