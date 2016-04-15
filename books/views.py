@@ -45,11 +45,10 @@ def reg(request):
 
 def edit(request):
     if request.method == 'POST':
-        if request.session.get('login',default=0):
-            islogin = request.session['login']
+        uname=request.session.get('uname',0)
+        if uname:
             data = request.POST
             lg_data=Udata(data)#login data instantiation
-            uname=request.session['uname']
             user_check=User.objects.filter(uname=request.session['uname'])
             if user_check.exists():
                 lo_user=User.objects.get(uname=uname)
@@ -64,12 +63,9 @@ def edit(request):
             return HttpResponseRedirect("/")
 
     else:
-        islogin=request.session.get('login',default=0)
-        #return HttpResponse(islogin)
-        if islogin == 1:
-            data = request.POST
-            lg_data=Udata(data)#login data instantiation
-            uname=request.session['uname']
+        uname=request.session.get('uname',0)
+        if uname:
+            islogin = True
             user_check=User.objects.filter(uname=request.session['uname'])
             lo_user=User.objects.get(uname=uname)
             return  render_to_response("books/edit.html",locals(),context_instance=RequestContext(request))
