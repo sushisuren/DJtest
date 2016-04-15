@@ -1,5 +1,6 @@
 #-*- encoding:utf-8 -*-
-from django.shortcuts import render,render_to_response,RequestContext
+from django.shortcuts import render,render_to_response,RequestContext,HttpResponseRedirect
+from django.http import HttpResponse
 from books.models import User
 from universal import Udata
 
@@ -10,10 +11,16 @@ def login(request):
         if dd.uname == '':
             data = '用户名不能为空'
         else:
-            p=User.objects.filter(uname=dd.uname)#获取用户实例
-            if p.exists(): #check object is exists
-                if dd.passwd == p[0].passwd:#check password，不迭代，主键直接取第一条
-                    data = "ok"
+            lo_user=User.objects.filter(uname=dd.uname)#获取用户实例
+            if lo_user.exists(): #check object is exists
+                lo_user=User.objects.get(uname=dd.uname)
+                if dd.passwd == lo_user.passwd:#check password，不迭代，直接取第一条
+                    request.session['uname'] = dd.uname#session
+                    request.session['login'] = 1
+                    islogin = request.session['login']
+                    data = islogin
+                    return render_to_response("books/edit.html",locals(),context_instance=RequestContext(request))
+                    #data = request.session['uname']# "登录成功"
                 else:
                     data = "passwd of usrname is not"
             else:#not exists
@@ -38,7 +45,42 @@ def reg(request):
 
 def edit(request):
     if request.method == 'POST':
-        data = request.POST
-        lg_data=Udata(data)#login data instantiation
-        user_check=User.objects.filter(uname=lg_data.uname)
-    return render_to_response("books/edit.html",locals(),context_instance=RequestContext(request))
+        if request.session.get('login',default=0):
+            islogin = request.session['login']
+            data = request.POST
+            lg_data=Udata(data)#login data instantiation
+            uname=request.session['uname']
+            user_check=User.objects.filter(uname=request.session['uname'])
+            if user_check.exists():
+                lo_user=User.objects.get(uname=uname)
+                lo_user.name=lg_data.name
+                lo_user.email=lg_data.email
+                lo_user.sex=lg_data.sex
+                lo_user.save()
+                return HttpResponse("Already edit")
+            else:
+                return HttpResponse("not found user")
+        else:
+            return HttpResponseRedirect("/")
+
+    else:
+        islogin=request.session.get('login',default=0)
+        #return HttpResponse(islogin)
+        if islogin == 1:
+            data = request.POST
+            lg_data=Udata(data)#login data instantiation
+            uname=request.session['uname']
+            user_check=User.objects.filter(uname=request.session['uname'])
+            lo_user=User.objects.get(uname=uname)
+            return  render_to_response("books/edit.html",locals(),context_instance=RequestContext(request))
+        else:
+            return HttpResponseRedirect("/") #not login Redirect
+    #return render_to_response("books/edit.html",locals(),context_instance=RequestContext(request))
+
+
+def logout(request):
+    try:
+        del request.session['uname'],request.session['login']
+    except KeyError:
+        return HttpResponse("not log out.")
+    return HttpResponse("You're logged out.")

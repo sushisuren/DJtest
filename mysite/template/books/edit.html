@@ -2,13 +2,21 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>注册</title>
+    <title>个人资料修改</title>
 </head>
 <body>
 <form method="post" action="" >
 {% csrf_token %}
-    <p><label>姓名</label><input name="name" placeholder="姓名"></p>
+    {% if islogin %}
+    <p><label>姓名</label><input name="name" placeholder="姓名" value={{ lo_user.name }}></p>
+    <p><label>Email</label><input name="email" placeholder="Email" value={{ lo_user.email}}></p>
+
+    {% else %}
+    <p><label>姓名</label><input name="name" placeholder="姓名" ></p>
     <p><label>Email</label><input name="email" placeholder="Email"></p>
+
+    {% endif %}
+
     <p>
         <input id="sex" type="radio" name="sex"  value=1> 男
         <input id="sex" type="radio" name="sex"  value=0> 女
@@ -21,7 +29,9 @@
        <p>{{ u_check }}</p>
     {% endif %}
     <hr>
-
+    {% if uname %}
+       <p>{{ uname }}</p>
+    {% endif %}
 <p><a href="/reg">注册</a>|<a href="/">首页</a></p>
 
 </body>

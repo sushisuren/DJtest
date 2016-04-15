@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+{% load staticfiles %}
+
+<html>
+<body>
+{% comment %}
+{% endcomment %}
+
+{{ request.path }}
+{% if islogin %}
+<p>what is this</p>
+{% else %}
+<p>如果您点击我，我会消失。</p>
+<p>点击我，我会消失。</p>
+<p>也要点击我哦。</p>
+<p id="test">也要点击我哦。</p>
+{{ name }}
+{% endif %}
+<hr>
+
+<script>
+    {% if name %}
+    document.write("<p id='demo'>Your name is {{ name }}</p>")
+    {% endif %}
+
+
+    document.write("<h1>This is a heading</h1>");
+    document.write("<p>This is a paragraph</p>");
+</script>
+<button type="button" onclick="alert('{{name}} welcome')">Try it</button>
+<button type="button" onclick="alert('Welcome!')">点击这里</button>
+
+<script>
+    var pi=3.14e9;
+    var dd= "{{ name }}"
+    var nameb="Bill Gates";
+    var answer='Yes I am!';
+
+    document.write( "<br>");
+    document.write( dd +"的长度是"+dd.length + "<br>");
+    document.write(pi + "<br>");
+    document.write(nameb + "<br>");
+    document.write(answer + "<br>");
+</script>
+
+</body>
+<head>
+    <title>Title</title>
+
+<script src="{% static 'js/jquery.js' %}">
+</script>
+
+<script>
+
+
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+
+
+function myfuc()
+{
+   document.getElementById("demo").innerHTML="My First JavaScript Function";
+}
+
+</script>
+
+
+</head>
+</html>
