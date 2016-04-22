@@ -7,6 +7,9 @@
 <body>
 
 <form action="" method="post" enctype="multipart/form-data">
+
+    {{ islogin }}
+    <hr>
 {% for im in form %}
     {{ im.label_tag }} {{im}}
         {% if im.errors %}

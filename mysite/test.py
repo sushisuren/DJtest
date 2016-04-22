@@ -1,30 +1,55 @@
 #-*- encoding:utf-8 -*-
+from __future__ import unicode_literals
 from django.shortcuts import render_to_response,RequestContext
 from django.http import HttpResponse
 from django.contrib import auth
 from os import linesep
 from django import forms
 from django.core.mail import send_mail
+from books.models import User
 
-class NameForm(forms.Form):
-    # your_name=forms.CharField(label="Your name",max_length=100)
-    # age=forms.FloatField()
+
+# class User(models.Model):
+#     uname = models.CharField(max_length=30)#username
+#     passwd = models.CharField(verbose_name='密码',max_length=20)
+#     name = models.CharField(blank=True,verbose_name='姓名',max_length=30)# true name
+#     email = models.EmailField(blank=True)
+#     sex = models.BooleanField()
+#     birth=models.DateField()
+#     education=models.CharField(max_length=20)
+#     school=models.CharField(max_length=100)
+#     position=models.CharField(max_length=100)
+#     insterest=models.CharField(max_length=100)
+
+class NameForm(forms.ModelForm):
+    gender=forms.ChoiceField(label='性别',choices=((True, '男'), (False, '女')))
+    file=forms.FileField(label='文件上传')
+    class Meta:
+        model=User
+        fields=['name','birth','education','school','position','insterest']
+
+
+
+class NameForm_test(forms.Form):
+    your_name=forms.CharField(label="姓名",max_length=100)
+    age=forms.FloatField(label="年龄")
     email=forms.EmailField()
-    file=forms.FileField()
+    file=forms.FileField(label="文件上传")
+    gender=forms.ChoiceField(label='性别',choices=((True, '男'), (False, '女')))
+
 
 
 def test(request):
     if request.method=="POST":
         form = NameForm(request.POST,request.FILES)
         print request.FILES
-        return HttpResponse(request.FILES)
         if form.is_valid():
-            #M=form.cleaned_data
+            M=form.cleaned_data
             print (request.FILES['file'])
-            #print M
-            return HttpResponse("ok")
-
-            #return render_to_response("test/form.html",{'form':form},context_instance=RequestContext(request))
+            print M
+            #print M['age']
+            return HttpResponse(str(request.FILES['file']))
+            #return render_to_response("test/form.html",{'form':form},RequestContext(request))
     else:
         form=NameForm()
     return render_to_response("test/form.html",{'form':form})

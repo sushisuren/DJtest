@@ -1,4 +1,5 @@
 #-*- encoding:utf-8 -*-
+from __future__ import unicode_literals
 from django.db import models
 
 
@@ -6,12 +7,18 @@ from django.db import models
 
 
 class User(models.Model):
-    #id = models.AutoField(primary_key=True)
     uname = models.CharField(max_length=30)#username
-    name = models.CharField(blank=True,max_length=30)# true name
-    passwd = models.CharField(max_length=20)
+    passwd = models.CharField(verbose_name='密码',max_length=20)
+    name = models.CharField(blank=True,verbose_name='姓名',max_length=30)# true name
     email = models.EmailField(blank=True)
-    sex = models.BooleanField()
+    sex = models.BooleanField(blank=True,verbose_name='性别')
+    gender = models.CharField(blank=True,verbose_name='性别', choices=(('M', '男'), ('F', '女')),
+        max_length=1)#, radio_admin=True)
+    birth=models.DateField(blank=True,verbose_name='生日')
+    education=models.CharField(blank=True,verbose_name='学历',max_length=20)
+    school=models.CharField(blank=True,verbose_name='学校',max_length=100)
+    position=models.CharField(blank=True,verbose_name='职位',max_length=100)
+    insterest=models.CharField(blank=True,verbose_name='兴趣',max_length=100)
 
     # class Meta:
     #     db_table = 'books_user'

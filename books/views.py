@@ -1,8 +1,10 @@
 #-*- encoding:utf-8 -*-
+from __future__ import unicode_literals
 from django.shortcuts import render,render_to_response,RequestContext,HttpResponseRedirect
 from django.http import HttpResponse
 from books.models import User
 from universal import Udata
+from django import forms
 
 def login(request):
     if request.method == 'POST':
@@ -19,13 +21,14 @@ def login(request):
                     request.session['login'] = 1
                     islogin = request.session['login']
                     data = islogin
-                    return render_to_response("books/edit.html",locals(),context_instance=RequestContext(request))
+                    return HttpResponseRedirect('/edit/')
+                    return render_to_response("books/editform.html",locals())#,RequestContext(request))
                     #data = request.session['uname']# "登录成功"
                 else:
                     data = "passwd of usrname is not"
             else:#not exists
                 data = '未注册'
-    return render_to_response("books/login.html",locals(),context_instance=RequestContext(request))
+    return render_to_response("books/login.html",locals())#,context_instance=RequestContext(request))
 
 def reg(request):
     if request.method == 'POST':
@@ -43,7 +46,32 @@ def reg(request):
                 u_check = "注册成功，请登录"
     return render_to_response("books/reg.html",locals(),context_instance=RequestContext(request))
 
+
 def edit(request):
+    if request.method=="POST":
+        islogin = request.session['login']
+        form = NameForm(request.POST,request.FILES)
+        print request.FILES
+        if form.is_valid():
+            M=form.cleaned_data
+            print (request.FILES['file'])
+            print M
+            #print M['age']
+            return HttpResponse(str(request.FILES['file']))
+            #return render_to_response("test/form.html",{'form':form},RequestContext(request))
+    else:
+        form=NameForm()
+    return render_to_response("books/editform.html",locals())#{'form':form,'islogin':islogin})
+
+class NameForm(forms.ModelForm):
+    gender=forms.ChoiceField(label='性别',choices=((True, '男'), (False, '女')))
+    file=forms.FileField(label='文件上传')
+    class Meta:
+        model=User
+        fields=['name','birth','education','school','position','insterest']
+
+
+def edit_test(request):
     if request.method == 'POST':
         uname=request.session.get('uname',0)
         if uname:
