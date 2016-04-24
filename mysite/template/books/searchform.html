@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>搜索页</title>
+</head>
+<body>
+
+<form action="" method="post" enctype="multipart/form-data">
+
+    {{ islogin }}
+    <hr>
+{% for im in form %}
+    {{ im.label_tag }} {{im}}
+        {% if im.errors %}
+        <p style="color: red;">
+            请改正这个地方<br>
+        </p>
+    {% endif %}
+<br>
+    {% endfor %}
+    <input type="submit" value="搜索">
+<hr>
+
+{% comment %}
+ {% for im in form %}
+    {{ im.label_tag }}
+    {{im}}
+    {{ im.errors }}
+    {% endfor %}
+
+{% endcomment %}
+</form>
+
+
+</body>
+</html>

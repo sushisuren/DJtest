@@ -71,6 +71,30 @@ class NameForm(forms.ModelForm):
         fields=['name','birth','education','school','position','insterest']
 
 
+class SearchForm(forms.ModelForm):
+    class Meta:
+        model=User
+        fields=['name','education']
+
+def Search(request):
+    if request.method=="POST":
+        form=SearchForm(request.POST)
+        if form.is_valid():
+            c_form=form.cleaned_data
+            uname=c_form['name']
+            education=c_form['education']
+            if uname:
+                db_data=User.objects.filter(uname=uname)
+            elif education:
+                db_data=User.objects.filter(uname=education)
+            return HttpResponse(db_data)
+            pass#do
+    else:
+        form=SearchForm()
+        return render_to_response("books/searchform.html",locals())
+
+
+
 def edit_test(request):
     if request.method == 'POST':
         uname=request.session.get('uname',0)
