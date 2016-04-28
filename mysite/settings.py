@@ -1,3 +1,6 @@
+#-*- encoding:utf-8 -*-
+from __future__ import unicode_literals
+
 """
 Django settings for mysite project.
 
@@ -55,6 +58,20 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
+
+
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+#    'django.core.context_processors.auth',
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.request',#request对象传入模板上下文
+#    'django.core.context_processors.debug',
+#    'django.core.context_processors.i18n',
+#    'django.core.context_processors.media',
+#    'tools.my_template_context_processors.request_filter',
+
+)
+
 
 ROOT_URLCONF = 'mysite.urls'
 
